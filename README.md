@@ -45,9 +45,9 @@ This is an IR remote designed specifically for a custom desk fan(currently in ma
 
 | Button | Purpose |
 |:---|:---|
-| **Power Button 🔘** | Used to power the fan on and off |
-| **Speed Up Button ▲** | Used to speed up the fan |
-| **Speed Down button ▼** | Used to lower the speed of the fan |
+| **🔘 Power Button 🔘** | Used to power the fan on and off |
+| **▲ Speed Up Button ▲** | Used to speed up the fan |
+| **▼ Speed Down button ▼** | Used to lower the speed of the fan |
 | **Preset 1 1️⃣** | The first fan speed preset |
 | **Preset 2 2️⃣** | The second fan speed preset |
 | **Preset 3 3️⃣** | The third fan speed preset |
