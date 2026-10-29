@@ -10,6 +10,14 @@ An IR Remote containing 7 buttons, with a custom PCB.
 
 </div>
 
+
+> [!NOTE]
+> Please know that no AI was used to create this README. This README was typed manually by me, so there may be mistakes even after I've proofread it multiple times.
+>
+> If there are any mistakes please let me know.
+
+---
+
 ## Table of Contents
 
 - [Overview](#overview)
@@ -37,13 +45,13 @@ This is an IR remote designed specifically for a custom desk fan(currently in ma
 
 | Button | Purpose |
 |:---|:---|
-| **Power Button** | Used to power the fan on and off |
-| **Speed Up Button** | Used to speed up the fan |
-| **Speed Down button** | Used to lower the speed of the fan |
-| **Preset 1** | The first fan speed preset |
-| **Preset 2** | The second fan speed preset |
-| **Preset 3** | The third fan speed preset |
-| **Preset 4** | The fourth fan speed preset |
+| **Power Button 🔘** | Used to power the fan on and off |
+| **Speed Up Button ▲** | Used to speed up the fan |
+| **Speed Down button ▼** | Used to lower the speed of the fan |
+| **Preset 1 1️⃣** | The first fan speed preset |
+| **Preset 2 2️⃣** | The second fan speed preset |
+| **Preset 3 3️⃣** | The third fan speed preset |
+| **Preset 4 4️⃣** | The fourth fan speed preset |
 
 All buttons connect to the PCB using soldered wires.
 
