@@ -173,15 +173,42 @@ This is where I'm going to be adding all the images and screenshots.
 **IN PROGRESS**
 
 <br>
+## Bill of Materials
 
-| **Ref.** | **Component** | **Exact Part** | **Qty** | **Type** | **Est. Total Cost** | **Kicad Footprint** | **Supplier/Purchase Link** | **Purpose/Notes** |
-|:---:|:---|:---|:---:|:---:|---:|:---|:---|:---|
-| U1 | Microcontroller | MicrochipATtiny1616-S | 1 | Solder | $1.16 | `Package_SO:SOIC-20W_7.5x12.8mm_P1.27mm` | [DigiKey](https://www.digikey.com/en/products/detail/microchip-technology/ATTINY1616-SN/10231345?gclsrc=aw.ds&gad_source=1&gad_campaignid=20790518593&gbraid=0AAAAADrbLljM6GxGvRl7-2G9TBt4i-OXL&gclid=CjwKCAjwi-zWBhAdEiwAqlRf-EygoNddCmALjr8i82Xuxs25xnLS4NE329Q1yVUe1apmqWVAHRll5xoCatQQAvD_BwE) | Runs the firmware, reads buttons, generates IR signals. SOIC pins are soldered on pcb surface pads. |
-| D1 | IR LED | Vishay TSAL6200, 940 nm | 1 | Through-Hole | $0.50 | `LED_THT:LED_D5.0mm` | [DigiKey](https://www.digikey.com/en/products/detail/vishay-semiconductor-opto-division/TSAL6200/1681339?gclsrc=aw.ds&gad_source=1&gad_campaignid=20228387720&gbraid=0AAAAADrbLliNGTjDmvi36_Q-MRvV1ijCc&gclid=CjwKCAjwi-zWBhAdEiwAqlRf-DyOax2C-a4FzVuQMSiwmjW14pHEv-Ghv_gznsjcCdGDOqNPgJIj0BoCGIAQAvD_BwE) | Transmits commands to the fan. |
-| Q1 | NPN Transistor | BC547B | 1 | Through-Hole | $0.14 | `Package_TO_SOT_THT:TO-92_Inline` | [DigiKey](https://www.digikey.com/en/products/detail/diotec-semiconductor/BC547B/13164496) | Switches current through the IR LED. |
-| R1 | LED current-limiting resistor | 47Ω, 1/4W, Axial | 1 | Through-Hole | $0.10 | `Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal` | [DigiKey](https://www.digikey.com/en/products/detail/yageo/MFR-25FTE52-47R/9140228) | Limits IR LED current. |
-| R2 | Transistor base resistor | 330Ω, 1/4W, Axial | 1 | Through-Hole | $ | `Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal` |  |  |
+| **Ref.** | **Component** | **Exact Part** | **Qty** | **Type** | **Est. Cost** | **KiCad Footprint** | **Supplier/Purchase Link** | **Purpose/Notes** |
+|:--------:|---------------|----------------|:-------:|:--------:|---------------:|---------------------|----------------------------|-------------------|
+| U1 | Microcontroller | Microchip ATtiny1616-SN | 1 | SMD | $1.16 | `Package_SO:SOIC-20W_7.5x12.8mm_P1.27mm` | [DigiKey](https://www.digikey.com/en/products/detail/microchip-technology/ATTINY1616-SN/10231345) | Controls the remote and sends IR commands. |
+| D1 | IR LED | Vishay TSAL6200 | 1 | Through-Hole | $0.50 | `LED_THT:LED_D5.0mm` | [DigiKey](https://www.digikey.com/en/products/detail/vishay-semiconductor-opto-division/TSAL6200/1681339) | Sends infrared signals to the fan. |
+| Q1 | IR LED driver transistor | onsemi BC547BTA | 1 | Through-Hole | $0.28 | `Package_TO_SOT_THT:TO-92_Inline` | [DigiKey](https://www.digikey.com/en/products/detail/onsemi/BC547BTA/965854) | Controls the IR LED when sending commands. |
+| SW1–SW7 | Tactile Buttons | Omron B3F-1000 | 7 | Through-Hole | $2.45 ($0.35 × 7) | `Button_Switch_THT:SW_PUSH_6mm` | [DigiKey](https://www.digikey.com/en/products/detail/omron-electronics-inc-emc-div/B3F-1000/33150) | Used for power, speed control, and the four presets. |
+| SW8 | Power Switch | C&K OS102011MS2QS1 | 1 | Through-Hole | $0.85 | `Button_Switch_THT:SW_Slide_SPDT_Straight_CK_OS102011MS2Q` | [DigiKey](https://www.digikey.com/en/products/detail/c-k/OS102011MS2QS1/1981413) | Turns the remote on and off. |
+| C1 | Decoupling Capacitor | Vishay K104K15X7RF5TH5 | 1 | Through-Hole | $0.29 | `Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm` | [DigiKey](https://www.digikey.com/en/products/detail/vishay-beyschlag-draloric-bc-components/K104K15X7RF5TH5/286723) | Helps keep the microcontroller's power supply stable. |
+| C2 | Power-Supply Capacitor | Panasonic EEA-GA1C100H | 1 | Through-Hole | $0.29 | `Capacitor_THT:CP_Radial_D4.0mm_P2.50mm` | [DigiKey](https://www.digikey.com/en/products/detail/panasonic-industry/EEA-GA1C100H/2513289) | Helps smooth out the power supply. |
+| R1 | IR LED current-limiting resistor | YAGEO CFR-25JB-52-47R | 1 | Through-Hole | $0.10 | `Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal` | [DigiKey](https://www.digikey.com/en/products/detail/yageo/CFR-25JB-52-47R/2219) | Limits the current going to the IR LED. |
+| R2 | Transistor base resistor | YAGEO CFR-25JB-52-330R | 1 | Through-Hole | $0.11 | `Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal` | [DigiKey](https://www.digikey.com/en/products/detail/yageo/CFR-25JB-52-330R/1636) | Helps control the transistor. |
+| R3 | UPDI series resistor | YAGEO CFR-25JB-52-1K | 1 | Through-Hole | $0.10 | `Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal` | [DigiKey](https://www.digikey.com/en/products/detail/yageo/CFR-25JB-52-1K/96) | Used in the microcontroller programming connection. |
+| R4 | Transistor base pull-down resistor | YAGEO CFR-25JB-52-100K | 1 | Through-Hole | $0.11 | `Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal` | [DigiKey](https://www.digikey.com/en/products/detail/yageo/CFR-25JB-52-100K/245) | Keeps the IR LED driver turned off when not in use. |
+| J1 | Battery Holder | Keystone Electronics 2469 | 1 | External / Wired | $1.40 | `Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical` | [DigiKey](https://www.digikey.com/en/products/detail/keystone-electronics/2469/303818) | Holds the two AAA batteries that power the remote. |
+| J2 | UPDI Programming Header | Samtec TSW-103-07-G-S | 1 | Through-Hole | $0.27 | `Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical` | [DigiKey](https://www.digikey.com/en/products/detail/samtec-inc/TSW-103-07-G-S/1101324) | Connects a programmer for uploading firmware. |
+| B1–B2 | AAA Batteries | Energizer E92BP-2 | 2 | External | $2.14 (2-pack) | N/A | [RS](https://us.rs-online.com/product/energizer/e92bp-2/70344399/) | Provide power to the remote. |
 
+### Estimated Cost
+
+| **Category** | **Estimated Cost** |
+|---|---:|
+| PCB components and battery holder/header | $7.91 |
+| Two AAA batteries | $2.14 |
+| **Remote total** | **$10.05** |
+
+### Programming Tool (Not Included in PCB BOM)
+
+| **Component** | **Exact Part** | **Qty** | **Est. Cost** | **Purchase Link** | **Purpose/Notes** |
+|---|---|:---:|---:|---|---|
+| UPDI Programmer | Adafruit UPDI Friend (Product 5879) | 1 | $6.95 | [Adafruit](https://www.adafruit.com/product/5879) | External USB-C programmer for uploading firmware to the ATtiny1616. Reusable and not installed on the remote PCB. |
+
+**Estimated total including the programmer: $17.00.**
+
+*Prices are estimates and may change. Shipping, taxes, PCB fabrication, and the 3D-printed case are not included.*
 
 
 # How the IR Remote works
