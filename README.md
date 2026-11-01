@@ -170,10 +170,10 @@ This is where I'm going to be adding all the images and screenshots.
 >
 > Reference number are the ones in the schematic.
 
-**IN PROGRESS**
+
+**PCB Cost has not been finalized. It seems like JLCPCB is cheaper than PCBWAY. Current prices are showing PCBWAY prices.**
 
 <br>
-## Bill of Materials
 
 | **Ref.** | **Component** | **Exact Part** | **Qty** | **Type** | **Est. Cost** | **KiCad Footprint** | **Supplier/Purchase Link** | **Purpose/Notes** |
 |:--------:|---------------|----------------|:-------:|:--------:|---------------:|---------------------|----------------------------|-------------------|
@@ -198,7 +198,8 @@ This is where I'm going to be adding all the images and screenshots.
 |---|---:|
 | PCB components and battery holder/header | $7.91 |
 | Two AAA batteries | $2.14 |
-| **Remote total** | **$10.05** |
+| PCB | $11.72 |
+| **Remote total** | **$21.77** |
 
 ### Programming Tool (Not Included in PCB BOM)
 
@@ -210,13 +211,17 @@ This is where I'm going to be adding all the images and screenshots.
 
 *Prices are estimates and may change. Shipping, taxes, PCB fabrication, and the 3D-printed case are not included.*
 
+<details>
+<summary><h1>How the IR Remote works</h1></summary>
 
-# How the IR Remote works
+Each button will have a custom address that the ir receiver will pick up on. 
 
-Each button will have a custom address that the ir receiver will pick up on. Ex: 0xABCD will be transmitted, then the ir receiver will constantly be checking to see if a signal contains the address 0xABCD, and if it is exactly the same, then it will do whatever it needs to do.
+*Ex: 0xABCD will be transmitted, the ir receiver will constantly be checking to see if a signal contains the address 0xABCD, and if it is, then it does something.*
 
-The power button on the IR remote will switch the fan on and off. This is how it will work:
-There is a power switch on the fan itself. This is basically the real power switch, and switching it off also switches off the ir receiver. The IR remote power button however, only switches off the fan, not the actual device itself. Things will keep taking power, though much lesser than if the fan is running at full power.
+There is a power switch on the fan itself. This is basically the real power switch, and switching it off also switches off the ir receiver. The IR remote power button however, only switches off the fan motor, not the actual device itself.
+
+</details>
+
 
 <details>
  <summary><h1>ATtiny1616-S (Micro controller)</h1></summary>
@@ -229,5 +234,15 @@ There is a power switch on the fan itself. This is basically the real power swit
  - It has Hardware IR Modulation, which is basically perfect for IR remotes.
     - This eliminates the need for the CPU to constantly toggle pins through the software to blink the IR LED.
  - This microcontroller uses a very low amount of power, so the batteries will be able to last for a long time.
+ 
+</details>
+
+<details>
+ <summary><h1>PCB</h1></summary>
+
+  - The PCB was created in Kicad.
+  - It is exactly 57mm x 57mm.
+  - Instead of wiring components directly to GND, a GND plane fills the PCB.
+  - It is a two layer PCB
  
 </details>
