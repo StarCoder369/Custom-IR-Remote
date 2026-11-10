@@ -1,4 +1,4 @@
-<div align="center">
+ <div align="center">
 
 # Custom IR Remote
 
@@ -10,12 +10,6 @@ An IR Remote containing 7 buttons, with a custom PCB.
 
 </div>
 
-
-> [!NOTE]
-> Please know that no AI was used to create this README. This README was typed manually by me, so there may be mistakes even after I've proofread it multiple times.
->
-> If there are any mistakes please let me know.
-
 ---
 
 ## Table of Contents
@@ -26,19 +20,19 @@ An IR Remote containing 7 buttons, with a custom PCB.
 - [Images/Screenshots](#imagesscreenshots)
   - [Schematic](#schematic)
 - [BOM (Bill of Materials)](#bom-bill-of-materials)
-- [ATtiny1616-S (Microcontroller)](#attiny1616-s-micro-controller)
+- [Additional Information](#additional-information)
 
 ---
 
-# Overview
+## Overview
 
 This is an overview of the whole project.
 
-## Description
+### Description
 
 This is an IR remote designed specifically for a custom desk fan(currently in making).
 
-### Main Components
+#### Main Components
 
 <details open>
 <summary><strong>7 Buttons</strong></summary>
@@ -106,52 +100,50 @@ All buttons connect to the PCB using soldered wires.
 
 </details>
 
-## Why I'm Making This
+### Why I'm Making This
 
-I'm making this IR Remote because I wanted a way to wirelessly control my custom desk fan(which is still in the designing phase). 
+I'm making this IR Remote because I wanted a way to wirelessly control my custom desk fan(which is still in the designing phase).
 
-Instead of just using an app, I wanted to make my own way to control it. I wanted to make something that could work on it's own, not needing a phone or another device. 
+Instead of just using an app, I wanted to make my own way to control it. I wanted to make something that could work on it's own, not needing a phone or another device.
 
 There's still going to be an app, but it's not a big part, and it's mostly to improve the ease of use and add some customizability.
 
 ---
 
-# Images/Screenshots
+## Images/Screenshots
 
 This is where I'm going to be adding all the images and screenshots.
 
 <details>
 <summary><strong>Click here to view all schematic images</strong></summary>
 
-<br>
+### Schematic
 
-## Schematic
-
-### Microcontroller Portion
+#### Microcontroller Portion
 
 ![Microcontroller Portion](https://github.com/user-attachments/assets/83b8b4a8-8f16-4974-ac36-db7c4563ab2c)
 
-### Main LED Portion
+#### Main LED Portion
 
 ![IR LED Portion](https://github.com/user-attachments/assets/e9089d64-6ebe-4e98-b873-b8c661b8aef6)
 
-### Power Switch Portion
+#### Power Switch Portion
 
 ![Power Switch Portion](https://github.com/user-attachments/assets/a9683ecd-7099-482b-ae4b-087781415219)
 
-### Buttons Portion
+#### Buttons Portion
 
 ![Buttons Portion](https://github.com/user-attachments/assets/91e2e072-a190-40a5-8990-25fbfa01a6da)
 
-### Battery Connector Portion
+#### Battery Connector Portion
 
 ![Battery Connector Portion](https://github.com/user-attachments/assets/40ec2d44-01db-4ba4-ab01-8d3e2de6c082)
 
-### Programming Connector Portion
+#### Programming Connector Portion
 
 ![Programming Connector Portion](https://github.com/user-attachments/assets/e92d2575-e264-4748-9eb5-a200af25f2b1)
 
-### Complete Schematic
+#### Complete Schematic
 
 ![Complete Schematic Screenshot](https://github.com/user-attachments/assets/b093bac4-4b5d-41d1-b8a2-2d518f6f8c62)
 
@@ -159,7 +151,7 @@ This is where I'm going to be adding all the images and screenshots.
 
 ---
 
-# BOM (Bill of Materials)
+## BOM (Bill of Materials)
 
 > [!NOTE]
 > These are estimated prices, the final prices may be different.
@@ -170,10 +162,7 @@ This is where I'm going to be adding all the images and screenshots.
 >
 > Reference number are the ones in the schematic.
 
-
 **PCB Cost has not been finalized. It seems like JLCPCB is cheaper than PCBWAY. Current prices are showing PCBWAY prices.**
-
-<br>
 
 | **Ref.** | **Component** | **Exact Part** | **Qty** | **Type** | **Est. Cost** | **KiCad Footprint** | **Supplier/Purchase Link** | **Purpose/Notes** |
 |:--------:|---------------|----------------|:-------:|:--------:|---------------:|---------------------|----------------------------|-------------------|
@@ -211,10 +200,14 @@ This is where I'm going to be adding all the images and screenshots.
 
 *Prices are estimates and may change. Shipping, taxes, PCB fabrication, and the 3D-printed case are not included.*
 
-<details>
-<summary><h1>How the IR Remote works</h1></summary>
+---
 
-Each button will have a custom address that the ir receiver will pick up on. 
+## Additional Information
+
+<details>
+<summary><strong>How the IR Remote works</strong></summary>
+
+Each button will have a custom address that the ir receiver will pick up on.
 
 *Ex: 0xABCD will be transmitted, the ir receiver will constantly be checking to see if a signal contains the address 0xABCD, and if it is, then it does something.*
 
@@ -222,27 +215,26 @@ There is a power switch on the fan itself. This is basically the real power swit
 
 </details>
 
-
 <details>
- <summary><h1>ATtiny1616-S (Micro controller)</h1></summary>
+<summary><strong>ATtiny1616-S (Micro controller)</strong></summary>
 
- This is the microcontroller used in the IR Remote. 
+This is the microcontroller used in the IR Remote.
 
-  - The ATtiny1616-S or ATtiny1616-SN, uses a SOIC package. It has 20 pins, and it's pretty easy to solder by hand.
-    - However, since it uses a SOIC package, it uses a lot more space in the PCB.
-    - Though it uses more space, I felt like it was more important to have something that I could solder without causing problems.
- - It has Hardware IR Modulation, which is basically perfect for IR remotes.
-    - This eliminates the need for the CPU to constantly toggle pins through the software to blink the IR LED.
- - This microcontroller uses a very low amount of power, so the batteries will be able to last for a long time.
- 
+- The ATtiny1616-S or ATtiny1616-SN, uses a SOIC package. It has 20 pins, and it's pretty easy to solder by hand.
+  - However, since it uses a SOIC package, it uses a lot more space in the PCB.
+  - Though it uses more space, I felt like it was more important to have something that I could solder without causing problems.
+- It has Hardware IR Modulation, which is basically perfect for IR remotes.
+  - This eliminates the need for the CPU to constantly toggle pins through the software to blink the IR LED.
+- This microcontroller uses a very low amount of power, so the batteries will be able to last for a long time.
+
 </details>
 
 <details>
- <summary><h1>PCB</h1></summary>
+<summary><strong>PCB</strong></summary>
 
-  - The PCB was created in Kicad.
-  - It is exactly 57mm x 57mm.
-  - Instead of wiring components directly to GND, a GND plane fills the PCB.
-  - It is a two layer PCB
- 
+- The PCB was created in Kicad.
+- It is exactly 57mm x 57mm.
+- Instead of wiring components directly to GND, a GND plane fills the PCB.
+- It is a two layer PCB
+
 </details>
