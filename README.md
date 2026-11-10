@@ -196,7 +196,7 @@ This is where I'm going to be adding all the images and screenshots.
 |---|---|:---:|---:|---|---|
 | UPDI Programmer | Adafruit UPDI Friend (Product 5879) | 1 | $6.95 | [Adafruit](https://www.adafruit.com/product/5879) | External USB-C programmer for uploading firmware to the ATtiny1616. Reusable and not installed on the remote PCB. |
 
-**Estimated total including the programmer: $17.00.**
+**Estimated total including the programmer: $28.72.**
 
 *Prices are estimates and may change. Shipping, taxes, PCB fabrication, and the 3D-printed case are not included.*
 
