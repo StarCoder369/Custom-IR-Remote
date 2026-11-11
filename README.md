@@ -176,7 +176,7 @@ This is where I'm going to be adding all the images and screenshots.
 >
 > Reference number are the ones in the schematic.
 
-**PCB Cost has not been finalized. It seems like JLCPCB is cheaper than PCBWAY. Current prices are showing PCBWAY prices.**
+**PCB Cost has not been finalized. It seems like JLCPCB might be cheaper than PCBWAY. Current prices are showing PCBWAY prices.**
 
 | **Ref.** | **Component** | **Exact Part** | **Qty** | **Type** | **Est. Cost** | **KiCad Footprint** | **Supplier/Purchase Link** | **Purpose/Notes** |
 |:--------:|---------------|----------------|:-------:|:--------:|---------------:|---------------------|----------------------------|-------------------|
@@ -212,7 +212,7 @@ This is where I'm going to be adding all the images and screenshots.
 
 **Estimated total including the programmer: $28.72.**
 
-*Prices are estimates and may change. Shipping, taxes, PCB fabrication, and the 3D-printed case are not included.*
+*Prices are estimates and may change. Shipping, taxes, PCB fabrication, and the 3D-printed case are not included(3D Printing cost will be added once case has been finalized).*
 
 ---
 
