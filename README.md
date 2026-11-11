@@ -247,7 +247,7 @@ This is the microcontroller used in the IR Remote.
 <summary><strong>PCB</strong></summary>
 
 - The PCB was created in Kicad.
-- It is exactly 57mm x 57mm.
+- It is exactly 81mm x 57mm.
 - Instead of wiring components directly to GND, a GND plane fills the PCB.
 - It is a two layer PCB
 
