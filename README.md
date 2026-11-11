@@ -114,8 +114,8 @@ There's still going to be an app, but it's not a big part, and it's mostly to im
 
 This is where I'm going to be adding all the images and screenshots.
 
-<details>
-<summary><strong>Click here to view all schematic images</strong></summary>
+<details open>
+<summary><strong>Click here to hide/show all schematic images</strong></summary>
 
 ### Schematic
 
@@ -146,6 +146,20 @@ This is where I'm going to be adding all the images and screenshots.
 #### Complete Schematic
 
 ![Complete Schematic Screenshot](https://github.com/user-attachments/assets/b093bac4-4b5d-41d1-b8a2-2d518f6f8c62)
+
+</details>
+
+<details open>
+<summary><strong>Click here to hide/show all PCB images</strong></summary>
+
+### PCB
+
+#### PCB (Showing Filled Zones)
+<img width="914" height="640" alt="Screenshot 2026-11-10 at 9 33 42 PM" src="https://github.com/user-attachments/assets/37df905b-5dd9-4ed2-842f-b31577b8bbd8" />
+
+#### PCB (Not Showing Filled Zones)
+<img width="914" height="640" alt="Screenshot 2026-11-10 at 9 34 16 PM" src="https://github.com/user-attachments/assets/fca2ff1c-7865-4406-9393-fd768775e069" />
+
 
 </details>
 
