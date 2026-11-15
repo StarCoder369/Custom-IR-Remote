@@ -202,7 +202,7 @@ This is where I'm going to be adding all the images and screenshots.
 | PCB components and battery holder/header | $7.91 |
 | Two AAA batteries | $2.14 |
 | PCB | $11.72 |
-| **Remote total** | **$21.77** |
+| **Main Remote Components Total** | **$21.77** |
 
 ### Programming Tool (Not Included in PCB BOM)
 
