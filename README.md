@@ -160,6 +160,59 @@ This is where I'm going to be adding all the images and screenshots.
 #### PCB (Not Showing Filled Zones)
 <img width="914" height="640" alt="Screenshot 2026-11-10 at 9 34 16 PM" src="https://github.com/user-attachments/assets/fca2ff1c-7865-4406-9393-fd768775e069" />
 
+</details>
+
+<details open>
+<summary><strong>Click here to hide/show all CAD images</strong></summary>
+
+### CAD (Case)
+
+#### PCB Holder Portion
+<img width="841" height="600" alt="Screenshot 2026-11-14 at 9 02 55 PM" src="https://github.com/user-attachments/assets/fbde84e7-5a7f-4a89-afde-d9c641a2498b" />
+
+
+#### Battery Case Bottom Portion (Without Battery Holder Component)
+<img width="663" height="512" alt="Screenshot 2026-11-14 at 9 03 45 PM" src="https://github.com/user-attachments/assets/5f71ab6a-5b3c-478e-a024-b4da512777cf" />
+
+
+#### Battery Case Bottom Portion (With Battery Holder Component)
+<img width="630" height="558" alt="Screenshot 2026-11-14 at 9 04 41 PM" src="https://github.com/user-attachments/assets/90529d5c-0690-4505-8f51-d96701425a17" />
+
+
+#### Battery Case Top-1
+<img width="618" height="474" alt="Screenshot 2026-11-14 at 9 05 22 PM" src="https://github.com/user-attachments/assets/473c8dda-fcd4-4a32-aeb8-586fb7dfa291" />
+
+
+#### Battery Case Top-2
+<img width="618" height="474" alt="Screenshot 2026-11-14 at 9 05 52 PM" src="https://github.com/user-attachments/assets/eaf77669-8681-4177-9414-f89d5923abd6" />
+
+
+#### Battery Case Top-Both
+<img width="618" height="474" alt="Screenshot 2026-11-14 at 9 06 26 PM" src="https://github.com/user-attachments/assets/453a0e1f-68f6-4eed-8798-31a5605d522e" />
+
+#### Complete Battery Case
+<img width="618" height="474" alt="Screenshot 2026-11-14 at 9 06 58 PM" src="https://github.com/user-attachments/assets/4f9d2021-e205-40be-a7bd-6a1e72935008" />
+
+
+#### Main Case Bottom (Without Other Parts)
+<img width="700" height="486" alt="Screenshot 2026-11-14 at 9 07 48 PM" src="https://github.com/user-attachments/assets/af1ee9eb-f38b-4236-b714-87a6db670df2" />
+
+
+#### Main Case Bottom (With Other Parts)
+<img width="700" height="486" alt="Screenshot 2026-11-14 at 9 08 22 PM" src="https://github.com/user-attachments/assets/793c7448-ac96-4544-b601-f523b5e2e62a" />
+
+
+#### Main Case Top
+<img width="976" height="619" alt="Screenshot 2026-11-14 at 9 09 04 PM" src="https://github.com/user-attachments/assets/ed6d799d-7065-41ed-97ed-7adc61cd4977" />
+
+
+#### Main Case Both
+<img width="886" height="576" alt="Screenshot 2026-11-14 at 9 09 38 PM" src="https://github.com/user-attachments/assets/73813ff9-35db-4f5d-8d31-b01efe2e8516" />
+
+
+#### Everything Together
+<img width="555" height="619" alt="Screenshot 2026-11-14 at 9 10 28 PM" src="https://github.com/user-attachments/assets/342c4031-3533-4b52-88a0-68a317a7c2ac" />
+
 
 </details>
 
