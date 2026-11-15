@@ -176,7 +176,7 @@ This is where I'm going to be adding all the images and screenshots.
 >
 > Reference number are the ones in the schematic.
 
-**PCB Cost has not been finalized. It seems like JLCPCB might be cheaper than PCBWAY. Current prices are showing PCBWAY prices.**
+**PCB Cost has not been finalized. Currently using JLCPCB estimates, since it seems like it is cheaper than PCBWAY**
 
 | **Ref.** | **Component** | **Exact Part** | **Qty** | **Type** | **Est. Cost** | **KiCad Footprint** | **Supplier/Purchase Link** | **Purpose/Notes** |
 |:--------:|---------------|----------------|:-------:|:--------:|---------------:|---------------------|----------------------------|-------------------|
@@ -199,20 +199,20 @@ This is where I'm going to be adding all the images and screenshots.
 
 | **Category** | **Estimated Cost** |
 |---|---:|
-| PCB components and battery holder/header | $7.91 |
-| Two AAA batteries | $2.14 |
-| PCB | $11.72 |
-| **Main Remote Components Total** | **$21.77** |
+| PCB component, battery holder, and batteries | $10.05 |
+| PCB | $6.22 |
+| **Main Remote Components Total** | **$16.27** |
 
-### Programming Tool (Not Included in PCB BOM)
-
+### Other Tools/Parts (Not Included in PCB BOM)
 | **Component** | **Exact Part** | **Qty** | **Est. Cost** | **Purchase Link** | **Purpose/Notes** |
 |---|---|:---:|---:|---|---|
 | UPDI Programmer | Adafruit UPDI Friend (Product 5879) | 1 | $6.95 | [Adafruit](https://www.adafruit.com/product/5879) | External USB-C programmer for uploading firmware to the ATtiny1616. Reusable and not installed on the remote PCB. |
+| Soldering Iron | PINECIL - Smart Mini Portable Soldering Iron (Version 2) | 1 | $25.99 | [Pinecil Store](https://pine64.com/product/pinecil-smart-mini-portable-soldering-iron/) | Soldering iron to solder components onto the PCB |
+| Soldering Iron Tips | PINECIL Threaded Insert Tips Set and Adapter | 1 | $14.99 | [Pinecil Store](https://pine64.com/product/pinecil-threaded-insert-tips-set-and-adapter/) | Needed to install heat-set inserts into the case using the soldering iron |
 
-**Estimated total including the programmer: $28.72.**
+**Estimated Total (including everything): $64.2**
 
-*Prices are estimates and may change. Shipping, taxes, PCB fabrication, and the 3D-printed case are not included(3D Printing cost will be added once case has been finalized).*
+*Prices are estimates and may change. Shipping(for components), taxes, heat-set inserts(will be added soon), and the 3D-printed case are not included(3D Printing cost will be added once case has been finalized).*
 
 ---
 
