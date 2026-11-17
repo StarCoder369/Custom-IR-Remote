@@ -100,6 +100,14 @@ All buttons connect to the PCB using soldered wires.
 
 </details>
 
+<details open>
+<summary><strong>N52 Magnets</strong></summary>
+
+- Four on each corner of the back of the remote
+- Used to magnetically attach the remote to the desk fan
+
+</details>
+
 ### Why I'm Making This
 
 I'm making this IR Remote because I wanted a way to wirelessly control my custom desk fan(which is still in the designing phase).
@@ -262,8 +270,9 @@ This is where I'm going to be adding all the images and screenshots.
 | UPDI Programmer | Adafruit UPDI Friend (Product 5879) | 1 | $6.95 | [Adafruit](https://www.adafruit.com/product/5879) | External USB-C programmer for uploading firmware to the ATtiny1616. Reusable and not installed on the remote PCB. |
 | Soldering Iron | PINECIL - Smart Mini Portable Soldering Iron (Version 2) | 1 | $25.99 | [Pinecil Store](https://pine64.com/product/pinecil-smart-mini-portable-soldering-iron/) | Soldering iron to solder components onto the PCB |
 | Soldering Iron Tips | PINECIL Threaded Insert Tips Set and Adapter | 1 | $14.99 | [Pinecil Store](https://pine64.com/product/pinecil-threaded-insert-tips-set-and-adapter/) | Needed to install heat-set inserts into the case using the soldering iron |
+| Neodymium Magnets | N52 Neodymium Magnet Disc 10mm OD x 3mm H | 4 | $3.92 ($0.98 x 4) | [Supreme Magnets](https://suprememagnets.com/products/n52-neodymium-magnet-disc-10mm-od-x-3mm-h) | Needed to magnetically attach the remote onto the desk fan |
 
-**Estimated Total (including everything): $64.2**
+**Estimated Total (including everything): $68.12**
 
 *Prices are estimates and may change. Shipping(for components), taxes, heat-set inserts(will be added soon), and the 3D-printed case are not included(3D Printing cost will be added once case has been finalized).*
 
