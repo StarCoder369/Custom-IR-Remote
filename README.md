@@ -271,8 +271,9 @@ This is where I'm going to be adding all the images and screenshots.
 | Soldering Iron | PINECIL - Smart Mini Portable Soldering Iron (Version 2) | 1 | $25.99 | [Pinecil Store](https://pine64.com/product/pinecil-smart-mini-portable-soldering-iron/) | Soldering iron to solder components onto the PCB |
 | Soldering Iron Tips | PINECIL Threaded Insert Tips Set and Adapter | 1 | $14.99 | [Pinecil Store](https://pine64.com/product/pinecil-threaded-insert-tips-set-and-adapter/) | Needed to install heat-set inserts into the case using the soldering iron |
 | Neodymium Magnets | N52 Neodymium Magnet Disc 10mm OD x 3mm H | 4 | $3.92 ($0.98 x 4) | [Supreme Magnets](https://suprememagnets.com/products/n52-neodymium-magnet-disc-10mm-od-x-3mm-h) | Needed to magnetically attach the remote onto the desk fan |
+| Glue | Loctite Super Glue Gel Control, Clear, 0.14 fl oz Bottle, 1 Pack - Superglue for Plastic, Wood, Metal, Crafts & Repair, Cyanoacrylate Adhesive Instant Glue, Quick Dry | 1 | $4.18 | [Amazon](https://www.amazon.com/dp/B0006HUJCQ?plpRedirect=mhFallback&ref=clp_cat_related_p_2&th=1) | Needed to glue magnets onto case |
 
-**Estimated Total (including everything): $68.12**
+**Estimated Total (including everything): $72.30**
 
 *Prices are estimates and may change. Shipping(for components), taxes, heat-set inserts(will be added soon), and the 3D-printed case are not included(3D Printing cost will be added once case has been finalized).*
 
