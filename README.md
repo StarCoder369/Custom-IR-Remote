@@ -84,7 +84,7 @@ All buttons connect to the PCB using soldered wires.
 
 </details>
 
-<details open>
+<details >
 <summary><strong>Power Switch</strong></summary>
 
 - Used to switch the IR Remote on/off.
@@ -92,7 +92,7 @@ All buttons connect to the PCB using soldered wires.
 
 </details>
 
-<details open>
+<details >
 <summary><strong>USB-to-UPDI programmer</strong></summary>
 
 - 'Talks' to the microcontroller
@@ -100,7 +100,7 @@ All buttons connect to the PCB using soldered wires.
 
 </details>
 
-<details open>
+<details >
 <summary><strong>N52 Magnets</strong></summary>
 
 - Four on each corner of the back of the remote
@@ -122,7 +122,7 @@ There's still going to be an app, but it's not a big part, and it's mostly to im
 
 This is where I'm going to be adding all the images and screenshots.
 
-<details open>
+<details>
 <summary><strong>Click here to hide/show all schematic images</strong></summary>
 
 ### Schematic
@@ -157,7 +157,7 @@ This is where I'm going to be adding all the images and screenshots.
 
 </details>
 
-<details open>
+<details>
 <summary><strong>Click here to hide/show all PCB images</strong></summary>
 
 ### PCB
@@ -170,7 +170,7 @@ This is where I'm going to be adding all the images and screenshots.
 
 </details>
 
-<details open>
+<details>
 <summary><strong>Click here to hide/show all CAD images</strong></summary>
 
 ### CAD (Case)
