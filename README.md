@@ -86,7 +86,7 @@ All buttons connect to the PCB using soldered wires.
 
 </details>
 
-<details >
+<details open>
 <summary><strong>Power Switch</strong></summary>
 
 - Used to switch the IR Remote on/off.
@@ -94,7 +94,7 @@ All buttons connect to the PCB using soldered wires.
 
 </details>
 
-<details >
+<details open>
 <summary><strong>USB-to-UPDI programmer</strong></summary>
 
 - 'Talks' to the microcontroller
@@ -102,7 +102,7 @@ All buttons connect to the PCB using soldered wires.
 
 </details>
 
-<details >
+<details open>
 <summary><strong>N52 Magnets</strong></summary>
 
 - Four on each corner of the back of the remote
