@@ -22,6 +22,9 @@ An IR Remote containing 7 buttons, with a custom PCB.
   - [PCB](#pcb)
   - [CAD](#cad-case)
 - [BOM (Bill of Materials)](#bom-bill-of-materials)
+  - [Main PCB Components](#main-pcb-components)
+  - [Remote Components Cost](#estimated-remote-components-cost)
+  - [Other tools/parts](#other-toolsparts)
 - [Additional Information](#additional-information)
 
 ---
@@ -233,11 +236,9 @@ This is where I'm going to be adding all the images and screenshots.
 > [!WARNING]
 > These are estimated prices, the final prices may be different.
 >
-> Currently, the price to 3D print the case is not factored.
->
-> Everything below might change.
->
 > Reference number are the ones in the schematic.
+
+### Main PCB Components
 
 **PCB Cost has not been finalized. Currently using JLCPCB estimates, since it seems like it is cheaper than PCBWAY**
 
@@ -261,7 +262,8 @@ This is where I'm going to be adding all the images and screenshots.
 > [!NOTE]
 > J1 is a connector, which the battery holder will connect to. There is no physical component, so the battery holder has been put in its place.
 
-### Estimated Cost
+### Estimated Remote Components Cost
+#### Does not include tools/additional parts like screws, magnets, etc.
 
 | **Category** | **Estimated Cost** |
 |---|---:|
@@ -269,7 +271,8 @@ This is where I'm going to be adding all the images and screenshots.
 | PCB | $6.22 |
 | **Main Remote Components Total** | **$16.27** |
 
-### Other Tools/Parts (Not Included in PCB BOM)
+### Other Tools/Parts
+
 | **Component** | **Exact Part** | **Qty** | **Est. Cost** | **Purchase Link** | **Purpose/Notes** |
 |---|---|:---:|---:|---|---|
 | UPDI Programmer | Adafruit UPDI Friend (Product 5879) | 1 | $6.95 | [Adafruit](https://www.adafruit.com/product/5879) | External USB-C programmer for uploading firmware to the ATtiny1616. Reusable and not installed on the remote PCB. |
@@ -280,7 +283,7 @@ This is where I'm going to be adding all the images and screenshots.
 | Heat-Set Inserts | Heat Set Threaded Inserts (M3 x 5.7) | 4 | $2.00 ($0.50 x 4) | [Pev Dispensary](https://pevdispensary.com/products/heat-set-threaded-inserts?_pos=1&_psq=heat-set&_psid=b41701175&_ss=e) | Installed into the case using the soldering iron so screws can be used on the case |
 | Screws | M3.0 x 8mm Black Screws KM3X8 | 5 | $0.45 ($0.09 x 5) | [MODDIY](https://www.moddiy.com/products/1291/M3.0-x-8mm-Black-Screws-KM3X8.html) | Screwed into heat-set inserts to hold case lid down |
 
-**Estimated Total (including everything): $74.75**
+**Final Estimated Total: $74.75**
 
 *Prices are estimates and may change. Shipping(for components), taxes, and the 3D-printed case are not included(3D Printing cost will be added once case has been finalized).*
 
