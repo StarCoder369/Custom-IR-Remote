@@ -272,10 +272,11 @@ This is where I'm going to be adding all the images and screenshots.
 | Soldering Iron Tips | PINECIL Threaded Insert Tips Set and Adapter | 1 | $14.99 | [Pinecil Store](https://pine64.com/product/pinecil-threaded-insert-tips-set-and-adapter/) | Needed to install heat-set inserts into the case using the soldering iron |
 | Neodymium Magnets | N52 Neodymium Magnet Disc 10mm OD x 3mm H | 4 | $3.92 ($0.98 x 4) | [Supreme Magnets](https://suprememagnets.com/products/n52-neodymium-magnet-disc-10mm-od-x-3mm-h) | Needed to magnetically attach the remote onto the desk fan |
 | Glue | Loctite Super Glue Gel Control, Clear, 0.14 fl oz Bottle, 1 Pack - Superglue for Plastic, Wood, Metal, Crafts & Repair, Cyanoacrylate Adhesive Instant Glue, Quick Dry | 1 | $4.18 | [Amazon](https://www.amazon.com/dp/B0006HUJCQ?plpRedirect=mhFallback&ref=clp_cat_related_p_2&th=1) | Needed to glue magnets onto case |
+| Heat-Set Inserts | Heat Set Threaded Inserts (M3 x 5.7) | 4 | $2.00 ($0.50 x 4) | [Pev Dispensary](https://pevdispensary.com/products/heat-set-threaded-inserts?_pos=1&_psq=heat-set&_psid=b41701175&_ss=e) | Installed into the case using the soldering iron so screws can be used on the case |
 
-**Estimated Total (including everything): $72.30**
+**Estimated Total (including everything): $74.30**
 
-*Prices are estimates and may change. Shipping(for components), taxes, heat-set inserts(will be added soon), and the 3D-printed case are not included(3D Printing cost will be added once case has been finalized).*
+*Prices are estimates and may change. Shipping(for components), taxes, and the 3D-printed case are not included(3D Printing cost will be added once case has been finalized).*
 
 ---
 
