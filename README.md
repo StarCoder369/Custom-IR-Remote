@@ -19,6 +19,8 @@ An IR Remote containing 7 buttons, with a custom PCB.
   - [Why I'm Making This](#why-im-making-this)
 - [Images/Screenshots](#imagesscreenshots)
   - [Schematic](#schematic)
+  - [PCB](#pcb)
+  - [CAD](#cad-case)
 - [BOM (Bill of Materials)](#bom-bill-of-materials)
 - [Additional Information](#additional-information)
 
