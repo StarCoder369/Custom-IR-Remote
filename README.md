@@ -124,10 +124,10 @@ There's still going to be an app, but it's not a big part, and it's mostly to im
 
 This is where I'm going to be adding all the images and screenshots.
 
+### Schematic
+
 <details>
 <summary><strong>Click here to hide/show all schematic images</strong></summary>
-
-### Schematic
 
 #### Microcontroller Portion
 
@@ -159,10 +159,10 @@ This is where I'm going to be adding all the images and screenshots.
 
 </details>
 
+### PCB
+
 <details>
 <summary><strong>Click here to hide/show all PCB images</strong></summary>
-
-### PCB
 
 #### PCB (Showing Filled Zones)
 <img width="914" height="640" alt="Screenshot 2026-11-10 at 9 33 42 PM" src="https://github.com/user-attachments/assets/37df905b-5dd9-4ed2-842f-b31577b8bbd8" />
@@ -172,10 +172,10 @@ This is where I'm going to be adding all the images and screenshots.
 
 </details>
 
+### CAD (Case)
+
 <details>
 <summary><strong>Click here to hide/show all CAD images</strong></summary>
-
-### CAD (Case)
 
 #### PCB Holder Portion
 <img width="841" height="600" alt="Screenshot 2026-11-14 at 9 02 55 PM" src="https://github.com/user-attachments/assets/fbde84e7-5a7f-4a89-afde-d9c641a2498b" />
