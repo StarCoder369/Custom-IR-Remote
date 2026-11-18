@@ -256,7 +256,7 @@ This is where I'm going to be adding all the images and screenshots.
 | J2 | UPDI Programming Header | Samtec TSW-103-07-G-S | 1 | Through-Hole | $0.27 | `Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical` | [DigiKey](https://www.digikey.com/en/products/detail/samtec-inc/TSW-103-07-G-S/1101324) | Connects a programmer for uploading firmware. |
 | B1–B2 | AAA Batteries | Energizer E92BP-2 | 2 | External | $2.14 (2-pack) | N/A | [RS](https://us.rs-online.com/product/energizer/e92bp-2/70344399/) | Provide power to the remote. |
 
-[!NOTE]
+> [!NOTE]
 > J1 is a connector, which the battery holder will connect to. There is no physical component, so the battery holder has been put in its place.
 
 ### Estimated Cost
