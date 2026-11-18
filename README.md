@@ -228,7 +228,7 @@ This is where I'm going to be adding all the images and screenshots.
 
 ## BOM (Bill of Materials)
 
-> [!NOTE]
+> [!WARNING]
 > These are estimated prices, the final prices may be different.
 >
 > Currently, the price to 3D print the case is not factored.
@@ -252,9 +252,12 @@ This is where I'm going to be adding all the images and screenshots.
 | R2 | Transistor base resistor | YAGEO CFR-25JB-52-330R | 1 | Through-Hole | $0.11 | `Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal` | [DigiKey](https://www.digikey.com/en/products/detail/yageo/CFR-25JB-52-330R/1636) | Helps control the transistor. |
 | R3 | UPDI series resistor | YAGEO CFR-25JB-52-1K | 1 | Through-Hole | $0.10 | `Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal` | [DigiKey](https://www.digikey.com/en/products/detail/yageo/CFR-25JB-52-1K/96) | Used in the microcontroller programming connection. |
 | R4 | Transistor base pull-down resistor | YAGEO CFR-25JB-52-100K | 1 | Through-Hole | $0.11 | `Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal` | [DigiKey](https://www.digikey.com/en/products/detail/yageo/CFR-25JB-52-100K/245) | Keeps the IR LED driver turned off when not in use. |
-| J1 | Battery Holder | Keystone Electronics 2469 | 1 | External / Wired | $1.40 | `Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical` | [DigiKey](https://www.digikey.com/en/products/detail/keystone-electronics/2469/303818) | Holds the two AAA batteries that power the remote. |
+| J1 | Battery Holder | Keystone Electronics 2469 | 1 | External / Wired | $1.40 | `Connector_Wire:SolderWire-0.25sqmm_1x02_P4.2mm_D0.65mm_OD1.7mm` | [DigiKey](https://www.digikey.com/en/products/detail/keystone-electronics/2469/303818) | Holds the two AAA batteries that power the remote. |
 | J2 | UPDI Programming Header | Samtec TSW-103-07-G-S | 1 | Through-Hole | $0.27 | `Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical` | [DigiKey](https://www.digikey.com/en/products/detail/samtec-inc/TSW-103-07-G-S/1101324) | Connects a programmer for uploading firmware. |
 | B1–B2 | AAA Batteries | Energizer E92BP-2 | 2 | External | $2.14 (2-pack) | N/A | [RS](https://us.rs-online.com/product/energizer/e92bp-2/70344399/) | Provide power to the remote. |
+
+[!NOTE]
+> J1 is a connector, which the battery holder will connect to. There is no physical component, so the battery holder has been put in its place.
 
 ### Estimated Cost
 
@@ -276,7 +279,7 @@ This is where I'm going to be adding all the images and screenshots.
 
 **Estimated Total (including everything): $74.30**
 
-*Prices are estimates and may change. Shipping(for components), taxes, and the 3D-printed case are not included(3D Printing cost will be added once case has been finalized).*
+*Prices are estimates and may change. Shipping(for components), taxes, screws, and the 3D-printed case are not included(3D Printing cost will be added once case has been finalized).*
 
 ---
 
