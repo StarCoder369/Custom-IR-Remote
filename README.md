@@ -287,7 +287,7 @@ This is where I'm going to be adding all the images and screenshots.
 
 **Final Estimated Total: $77.7**
 
-*Prices are estimates and may change. Shipping(for components), taxes, and the 3D-printed case are not included(3D Printing cost will be added once case has been finalized).*
+*Prices are estimates and may change. Most shipping prices, taxes, and the 3D-printed case are not included(3D Printing cost will be added once case has been finalized). Discounts have also not been considered.*
 
 ---
 
