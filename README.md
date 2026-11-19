@@ -257,7 +257,7 @@ This is where I'm going to be adding all the images and screenshots.
 | R4 | Transistor base pull-down resistor | YAGEO CFR-25JB-52-100K | 1 | Through-Hole | $0.11 | `Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal` | [DigiKey](https://www.digikey.com/en/products/detail/yageo/CFR-25JB-52-100K/245) | Keeps the IR LED driver turned off when not in use. |
 | J1 | Battery Holder | Keystone Electronics 2469 | 1 | External / Wired | $1.40 | `Connector_Wire:SolderWire-0.25sqmm_1x02_P4.2mm_D0.65mm_OD1.7mm` | [DigiKey](https://www.digikey.com/en/products/detail/keystone-electronics/2469/303818) | Holds the two AAA batteries that power the remote. |
 | J2 | UPDI Programming Header | Samtec TSW-103-07-G-S | 1 | Through-Hole | $0.27 | `Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical` | [DigiKey](https://www.digikey.com/en/products/detail/samtec-inc/TSW-103-07-G-S/1101324) | Connects a programmer for uploading firmware. |
-| B1–B2 | AAA Batteries | Energizer E92BP-2 | 2 | External | $2.14 (2-pack) | N/A | [RS](https://us.rs-online.com/product/energizer/e92bp-2/70344399/) | Provide power to the remote. |
+| B1–B2 | AAA Batteries | Energizer Max Alkaline Batteries AAA 2 Each | 2 | External | $5.09 (2-pack) | N/A | [Amazon](https://www.amazon.com/Energizer-MAX-Alkaline-Batteries-Pack/dp/B00003IEM9/ref=sr_1_1?crid=1R5Q5H0U1N4MA&dib=eyJ2IjoiMSJ9.-J3RQvAfb9xdYkFISSO4y3AduNOJeUzNr0xkALFf9kgSEWOsKeL0i5_2h3EDz4lC9VpplQWgW__Im-mKuZHLgtRHvcjNEWr7CIr39bI7LtNjWBfKKD49iDBD_4RwlWHYhm9zbXP-ncLFMJg3TWQCN6IRO4bmVqequpENO8zsH6gED8lUeYwA5d3AjxRUVbFwqU5AU5Xcx8JNh8m1kagbji5c1Mswtthyb1CQW5HsBSASrcKXuoCpf2Xo_llRbgNO1LqfPV-yASuGBaBdtdVtaxvwQO4kQIbjTFAnPweYY3g.ylXVBRf7wR-I_RF41wxVxmvUJAZUJY90ZbtLZI4-cn0&dib_tag=se&keywords=Energizer%2BE92BP-2%2Baaa%2Bbatteries&qid=1795063780&refinements=p_n_g-1002806120111%3A23555310011&rnid=23555274011&sprefix=%2Caps%2C164&sr=8-1&th=1) | Provides power to the remote. |
 
 > [!NOTE]
 > J1 is a connector, which the battery holder will connect to. There is no physical component, so the battery holder has been put in its place.
@@ -267,9 +267,9 @@ This is where I'm going to be adding all the images and screenshots.
 
 | **Category** | **Estimated Cost** |
 |---|---:|
-| PCB component, battery holder, and batteries | $10.05 |
+| PCB component, battery holder, and batteries | $13 |
 | PCB | $6.22 |
-| **Main Remote Components Total** | **$16.27** |
+| **Main Remote Components Total** | **$19.22** |
 
 ### Other Tools/Parts
 
@@ -283,7 +283,9 @@ This is where I'm going to be adding all the images and screenshots.
 | Heat-Set Inserts | Heat Set Threaded Inserts (M3 x 5.7) | 4 | $2.00 ($0.50 x 4) | [Pev Dispensary](https://pevdispensary.com/products/heat-set-threaded-inserts?_pos=1&_psq=heat-set&_psid=b41701175&_ss=e) | Installed into the case using the soldering iron so screws can be used on the case |
 | Screws | M3.0 x 8mm Black Screws KM3X8 | 5 | $0.45 ($0.09 x 5) | [MODDIY](https://www.moddiy.com/products/1291/M3.0-x-8mm-Black-Screws-KM3X8.html) | Screwed into heat-set inserts to hold case lid down |
 
-**Final Estimated Total: $74.75**
+* Other tools total: $58.48
+
+**Final Estimated Total: $77.7**
 
 *Prices are estimates and may change. Shipping(for components), taxes, and the 3D-printed case are not included(3D Printing cost will be added once case has been finalized).*
 
