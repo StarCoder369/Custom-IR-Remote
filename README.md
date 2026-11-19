@@ -291,6 +291,14 @@ This is where I'm going to be adding all the images and screenshots.
 
 ---
 
+## About Parts Selected
+
+### Batteries
+I'm using an Amazon link, since even though the batteries may seem cheaper in other places, after factoring in shipping, it ends up being much more.
+
+### 
+
+
 ## Additional Information
 
 <details>
