@@ -346,6 +346,12 @@ Parts can be printed in PLA.
 
 ## Additional Information
 
+Powered by two AAA batteries. The battery compartment has to be ordered, while there is a 3d printed battery holder that holds the battery compartment in place. There is also a PCB holder, which holds the PCB in place. Both the holders snap into the main bottom part of the case. 
+
+The battery holder has a lid, which is divided into 2 parts. The two parts snap together, and the whole lid also snaps to the battery holder.
+
+The top part of the case uses screws to stay on the bottom part of the case. Heat-set inserts are installed to allow screws to be used.
+
 <details>
 <summary><strong>Dimensions</strong></summary>
 
