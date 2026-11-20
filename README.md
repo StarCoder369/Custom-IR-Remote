@@ -25,6 +25,7 @@ An IR Remote containing 7 buttons, with a custom PCB.
   - [Main PCB Components](#main-pcb-components)
   - [Remote Components Cost](#estimated-remote-components-cost)
   - [Other tools/parts](#other-toolsparts)
+- [About Parts Selected](#about-parts-selected)
 - [Additional Information](#additional-information)
 
 ---
@@ -59,7 +60,7 @@ All buttons connect to the PCB using soldered wires.
 <details open>
 <summary><strong>Custom PCB</strong></summary>
 
-- To lower the size of the remote
+- To decrease the size of the remote
 - To make everything much neater, and lessen the need for physical wires.
 - This is what all the components connect to.
 
@@ -113,6 +114,23 @@ All buttons connect to the PCB using soldered wires.
 
 </details>
 
+<details open>
+<summary><strong>Heat-Set Inserts</strong></summary>
+
+- Will be inserted to the top corners of the case
+- Allows screws to be used to hold the lid down
+
+</details>
+
+<details open>
+<summary><strong>Buttons</strong></summary>
+
+- 7 buttons
+- Each has a different function
+- All of them will be soldered to the PCB
+
+</details>
+
 ### Why I'm Making This
 
 I'm making this IR Remote because I wanted a way to wirelessly control my custom desk fan(which is still in the designing phase).
@@ -121,11 +139,15 @@ Instead of just using an app, I wanted to make my own way to control it. I wante
 
 There's still going to be an app, but it's not a big part, and it's mostly to improve the ease of use and add some customizability.
 
+Now even though I could just use a generic IR Remote that I can buy online, this project was also a learning challenge for me, and I personally think it's much better and more fun to make my own.
+
 ---
 
 ## Images/Screenshots
 
 This is where I'm going to be adding all the images and screenshots.
+
+**CAD SCREENSHOTS HAVE TO BE UPDATED**
 
 ### Schematic
 
@@ -283,7 +305,16 @@ This is where I'm going to be adding all the images and screenshots.
 | Heat-Set Inserts | Heat Set Threaded Inserts (M3 x 5.7) | 4 | $2.00 ($0.50 x 4) | [Pev Dispensary](https://pevdispensary.com/products/heat-set-threaded-inserts?_pos=1&_psq=heat-set&_psid=b41701175&_ss=e) | Installed into the case using the soldering iron so screws can be used on the case |
 | Screws | M3.0 x 8mm Black Screws KM3X8 | 5 | $0.45 ($0.09 x 5) | [MODDIY](https://www.moddiy.com/products/1291/M3.0-x-8mm-Black-Screws-KM3X8.html) | Screwed into heat-set inserts to hold case lid down |
 
-* Other tools total: $58.48
+* Other tools total: $58.48 *
+
+### 3D Printing Costs
+
+(These estimates are from Bambu Studio. Different printers may have slightly different filament costs or times.)
+
+| **Part** | **Filament Usage** | **Printing Time (Normal speed)** | **Est. Cost ($20/kg)** | **Est. Cost ($50/kg)** | **Purpose/Notes** |
+|---|---|:---:|---:|---|---|
+|  |  |  |  |  | |
+
 
 **Final Estimated Total: $77.7**
 
@@ -296,10 +327,41 @@ This is where I'm going to be adding all the images and screenshots.
 ### Batteries
 I'm using an Amazon link, since even though the batteries may seem cheaper in other places, after factoring in shipping, it ends up being much more.
 
-### 
+### Soldering Iron
+I've put the Pinecil in the BOM, but most soldering irons will work as long as you can use heat-set inserts with them.
+I've put the Pinecil since it's quite reliable.
 
+## How to 3D Print the Case
+
+The only 2 parts that need supports are the two parts of the lid of the battery holder.
+You can still enable supports for other parts if you wish, but they should not be required since most modern printers can handle bridging of those distances.
+
+Parts can be printed in PLA.
+
+### Recommended Printing Settings
+
+(This is for Bambu Studio. Most slicers should be similar)
+
+**Infill %:**
 
 ## Additional Information
+
+<details>
+<summary><strong>Dimensions</strong></summary>
+
+- The whole case is approximately (to the nearest mm): 132mm x 114mm x 31mm
+- The PCB is 81mm x 57mm
+
+</details>
+
+<details>
+<summary><strong>Details about the case</strong></summary>
+
+There are four magnets in the back of the case. These magnets will be used to attach the remote to the desk fan for easy access.
+
+The case has five rectangular slots in the bottom. This will be used as an alternate way from the magnets, to keep the ir remote more secure.
+
+</details>
 
 <details>
 <summary><strong>How the IR Remote works</strong></summary>
@@ -333,5 +395,17 @@ This is the microcontroller used in the IR Remote.
 - It is exactly 81mm x 57mm.
 - Instead of wiring components directly to GND, a GND plane fills the PCB.
 - It is a two layer PCB
+- Most components will be soldered to the PCB, while others will have wires connecting them.
 
 </details>
+
+## Details for 3D Printing
+
+This model can be printed with minimal support. 
+
+Look at the screenshots below to understand how to correctly orient all the parts on your build plate while it is printing to avoid problems.
+
+*Screenshots will be added here!!!*
+
+## Credits
+The case was modeled completely in Onshape. 
