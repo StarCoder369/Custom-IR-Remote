@@ -26,6 +26,8 @@ An IR Remote containing 7 buttons, with a custom PCB.
   - [Remote Components Cost](#estimated-remote-components-cost)
   - [Other tools/parts](#other-toolsparts)
 - [About Parts Selected](#about-parts-selected)
+- [Schematic Details](#schematic-details)
+- [3D Printing Details](#details-for-3d-printing)
 - [Additional Information](#additional-information)
 
 ---
@@ -342,7 +344,59 @@ Parts can be printed in PLA.
 
 (This is for Bambu Studio. Most slicers should be similar)
 
-**Infill %:**
+**Infill %:** 15%
+**Infill Type:** Gyroid
+
+## Schematic Details
+
+Refer to the [Schematic Screenshots](#schematic) to see the images of the schematic.
+
+### Buttons
+
+How the buttons connect to the microcontroller
+
+**SW1 (Power)** - BTN_POWER --> PA4(Pin 2)
+**SW2 (Speed Down)** - BTN_DOWN --> PA5(Pin 3)
+**SW3 (Speed Up)** - BTN_UP --> PA6(Pin 4)
+**SW4 (Preset 1)** - BTN_PRESET1 --> PA7(Pin 5)
+**SW5 (Preset 2)** - BTN_PRESET2 --> PB5(Pin 6)
+**SW6 (Preset 3)** - BTN_PRESET3 --> PB4(Pin 7)
+**SW7 (Preset 4)** - BTN_PRESET4 --> PB1(Pin 10)
+
+
+## Details for 3D Printing
+
+This model can be printed with minimal support. 
+
+Look at the screenshots below to understand how to correctly orient all the parts on your build plate while it is printing to avoid problems.
+
+**Case_Top**
+
+<img width="998" height="709" alt="Screenshot 2026-11-19 at 8 34 02 PM" src="https://github.com/user-attachments/assets/04c497da-3eb0-43b4-b2dc-2d7ee2d705a5" />
+
+**Case_Bottom**
+
+<img width="1011" height="729" alt="Screenshot 2026-11-19 at 8 34 23 PM" src="https://github.com/user-attachments/assets/b9a6d581-5dfd-49e4-a415-4bff6106d20d" />
+
+**Battery_Case_Lid01**
+
+<img width="381" height="453" alt="Screenshot 2026-11-19 at 8 35 00 PM" src="https://github.com/user-attachments/assets/495d8452-3dcd-472f-8db8-01127683f82f" />
+
+**Battery_Case_Lid02**
+
+<img width="381" height="453" alt="Screenshot 2026-11-19 at 8 35 19 PM" src="https://github.com/user-attachments/assets/c2b89aef-44b3-4c99-9bcd-40e863cccd34" />
+
+**Battery_Case_Bottom**
+
+<img width="487" height="470" alt="Screenshot 2026-11-19 at 8 35 33 PM" src="https://github.com/user-attachments/assets/82d6993c-f43f-45ce-a5bc-ed08bafd7669" />
+
+**PCB_Holder**
+
+<img width="604" height="511" alt="Screenshot 2026-11-20 at 8 35 30 PM" src="https://github.com/user-attachments/assets/928b0467-08da-406c-a358-7f8828bfb7ba" />
+
+
+
+*Screenshots will be added here!!!*
 
 ## Additional Information
 
@@ -404,14 +458,6 @@ This is the microcontroller used in the IR Remote.
 - Most components will be soldered to the PCB, while others will have wires connecting them.
 
 </details>
-
-## Details for 3D Printing
-
-This model can be printed with minimal support. 
-
-Look at the screenshots below to understand how to correctly orient all the parts on your build plate while it is printing to avoid problems.
-
-*Screenshots will be added here!!!*
 
 ## Credits
 The case was modeled completely in Onshape. 
