@@ -370,33 +370,42 @@ This model can be printed with minimal support.
 
 Look at the screenshots below to understand how to correctly orient all the parts on your build plate while it is printing to avoid problems.
 
+
 **Case_Top**
 
 <img width="998" height="709" alt="Screenshot 2026-11-19 at 8 34 02 PM" src="https://github.com/user-attachments/assets/04c497da-3eb0-43b4-b2dc-2d7ee2d705a5" />
+
+---
 
 **Case_Bottom**
 
 <img width="1011" height="729" alt="Screenshot 2026-11-19 at 8 34 23 PM" src="https://github.com/user-attachments/assets/b9a6d581-5dfd-49e4-a415-4bff6106d20d" />
 
+---
+
 **Battery_Case_Lid01**
 
 <img width="381" height="453" alt="Screenshot 2026-11-19 at 8 35 00 PM" src="https://github.com/user-attachments/assets/495d8452-3dcd-472f-8db8-01127683f82f" />
+
+---
 
 **Battery_Case_Lid02**
 
 <img width="381" height="453" alt="Screenshot 2026-11-19 at 8 35 19 PM" src="https://github.com/user-attachments/assets/c2b89aef-44b3-4c99-9bcd-40e863cccd34" />
 
+---
+
 **Battery_Case_Bottom**
 
 <img width="487" height="470" alt="Screenshot 2026-11-19 at 8 35 33 PM" src="https://github.com/user-attachments/assets/82d6993c-f43f-45ce-a5bc-ed08bafd7669" />
+
+---
 
 **PCB_Holder**
 
 <img width="604" height="511" alt="Screenshot 2026-11-20 at 8 35 30 PM" src="https://github.com/user-attachments/assets/928b0467-08da-406c-a358-7f8828bfb7ba" />
 
-
-
-*Screenshots will be added here!!!*
+---
 
 ## Additional Information
 
