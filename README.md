@@ -21,7 +21,7 @@ An IR Remote containing 7 buttons, with a custom PCB.
   - [Schematic](#schematic)
   - [PCB](#pcb)
   - [CAD](#cad-case)
-- [BOM (Bill of Materials)](#bom-bill-of-materials)
+- [BOM (Bill of Materials)](#bom)
   - [Main PCB Components](#main-pcb-components)
   - [Remote Components Cost](#estimated-remote-components-cost)
   - [Other tools/parts](#other-toolsparts)
@@ -255,7 +255,8 @@ This is where I'm going to be adding all the images and screenshots.
 
 ---
 
-## BOM (Bill of Materials)
+<details>
+<summary><h2 id="bom">BOM</h2></summary>
 
 > [!WARNING]
 > These are estimated prices, the final prices may be different.
@@ -321,6 +322,9 @@ This is where I'm going to be adding all the images and screenshots.
 **Final Estimated Total: $77.7**
 
 *Prices are estimates and may change. Most shipping prices, taxes, and the 3D-printed case are not included(3D Printing cost will be added once case has been finalized). Discounts have also not been considered.*
+
+
+</details>
 
 ---
 
