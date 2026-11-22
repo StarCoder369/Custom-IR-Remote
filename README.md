@@ -331,7 +331,7 @@ This is where I'm going to be adding all the images and screenshots.
 
 ---
 
-## About Parts Selected
+<details><summary><h2 id="about-parts-selected"> About Parts Selected </h2></summary>
 
 ### Batteries
 I'm using an Amazon link, since even though the batteries may seem cheaper in other places, after factoring in shipping, it ends up being much more.
@@ -340,22 +340,8 @@ I'm using an Amazon link, since even though the batteries may seem cheaper in ot
 I've put the Pinecil in the BOM, but most soldering irons will work as long as you can use heat-set inserts with them.
 I've put the Pinecil since it's quite reliable.
 
-## How to 3D Print the Case
-
-The only 2 parts that need supports are the two parts of the lid of the battery holder.
-You can still enable supports for other parts if you wish, but they should not be required since most modern printers can handle bridging of those distances.
-
-Parts can be printed in PLA.
-
-### Recommended Printing Settings
-
-(This is for Bambu Studio. Most slicers should be similar)
-
-**Infill %:** 15%
-**Infill Type:** Gyroid
-
 <details>
-<summary><h2 id="schematic-details> Schematic Details </h2></summary>
+<summary><h2 id="schematic-details"> Schematic Details </h2></summary>
 
 Refer to the [Schematic Screenshots](#schematic) to see the images of the schematic.
 
@@ -373,10 +359,24 @@ How the buttons connect to the microcontroller
 
 </details>
 
+</details>
+
 <details>
 <summary><h2 id="details-for-3d-printing">Details for 3D Printing</h2></summary>
- 
-This model can be printed with minimal support. 
+
+The only 2 parts that need supports are the two parts of the lid of the battery holder.
+You can still enable supports for other parts if you wish, but they should not be required since most modern printers can handle bridging of those distances.
+
+Parts can be printed in PLA.
+
+### Recommended Printing Settings
+
+(This is for Bambu Studio. Most slicers should be similar)
+
+**Infill %:** 15%
+**Infill Type:** Gyroid
+
+### Orientation
 
 Look at the screenshots below to understand how to correctly orient all the parts on your build plate while it is printing to avoid problems.
 
