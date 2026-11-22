@@ -26,7 +26,7 @@ An IR Remote containing 7 buttons, with a custom PCB.
   - [Main PCB Components](#main-pcb-components)
   - [Remote Components Cost](#estimated-remote-components-cost)
   - [Other tools/parts](#other-toolsparts)
-- [About Parts Selected](#about-parts-selected)
+- [About the Parts Selected](#about-parts-selected)
 - [Schematic Details](#schematic-details)
 - [3D Printing Details](#details-for-3d-printing)
 - [Additional Information](#additional-info)
