@@ -338,7 +338,14 @@ I'm using an Amazon link, since even though the batteries may seem cheaper in ot
 
 ### Soldering Iron
 I've put the Pinecil in the BOM, but most soldering irons will work as long as you can use heat-set inserts with them.
-I've put the Pinecil since it's quite reliable.
+I've selected the Pinecil since it's quite reliable.
+
+### Soldering Iron Tips
+These tips were selected because they are the ones meant for the Pinecil. Use the correct tips for other soldering irons.
+
+</details>
+
+---
 
 <details>
 <summary><h2 id="schematic-details"> Schematic Details </h2></summary>
@@ -359,7 +366,7 @@ How the buttons connect to the microcontroller
 
 </details>
 
-</details>
+---
 
 <details>
 <summary><h2 id="details-for-3d-printing">Details for 3D Printing</h2></summary>
