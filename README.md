@@ -28,7 +28,7 @@ An IR Remote containing 7 buttons, with a custom PCB.
 - [About Parts Selected](#about-parts-selected)
 - [Schematic Details](#schematic-details)
 - [3D Printing Details](#details-for-3d-printing)
-- [Additional Information](#additional-information)
+- [Additional Information](#additional-info)
 
 ---
 
@@ -354,7 +354,8 @@ Parts can be printed in PLA.
 **Infill %:** 15%
 **Infill Type:** Gyroid
 
-## Schematic Details
+<details>
+<summary><h2 id="schematic-details> Schematic Details </h2></summary>
 
 Refer to the [Schematic Screenshots](#schematic) to see the images of the schematic.
 
@@ -370,9 +371,11 @@ How the buttons connect to the microcontroller
 **SW6 (Preset 3)** - BTN_PRESET3 --> PB4(Pin 7)
 **SW7 (Preset 4)** - BTN_PRESET4 --> PB1(Pin 10)
 
+</details>
 
-## Details for 3D Printing
-
+<details>
+<summary><h2 id="details-for-3d-printing">Details for 3D Printing</h2></summary>
+ 
 This model can be printed with minimal support. 
 
 Look at the screenshots below to understand how to correctly orient all the parts on your build plate while it is printing to avoid problems.
@@ -412,10 +415,13 @@ Look at the screenshots below to understand how to correctly orient all the part
 
 <img width="604" height="511" alt="Screenshot 2026-11-20 at 8 35 30 PM" src="https://github.com/user-attachments/assets/928b0467-08da-406c-a358-7f8828bfb7ba" />
 
+</details>
+
 ---
 
-## Additional Information
-
+<details>
+<summary><h2 id="additional-info">Additional Information</h2></summary>
+ 
 Powered by two AAA batteries. The battery compartment has to be ordered, while there is a 3d printed battery holder that holds the battery compartment in place. There is also a PCB holder, which holds the PCB in place. Both the holders snap into the main bottom part of the case. 
 
 The battery holder has a lid, which is divided into 2 parts. The two parts snap together, and the whole lid also snaps to the battery holder.
@@ -473,6 +479,7 @@ This is the microcontroller used in the IR Remote.
 - It is a two layer PCB
 - Most components will be soldered to the PCB, while others will have wires connecting them.
 
+</details>
 </details>
 
 ## Credits
