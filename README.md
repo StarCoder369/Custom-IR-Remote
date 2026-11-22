@@ -312,11 +312,14 @@ This is where I'm going to be adding all the images and screenshots.
 
 ### 3D Printing Costs
 
-(These estimates are from Bambu Studio. Different printers may have slightly different filament costs or times.)
+> These estimates are from Bambu Studio.
+> Different printers may have slightly different filament costs or times.
+>
+> Does not account for printing on the same plate
 
-| **Part** | **Filament Usage** | **Printing Time (Normal speed)** | **Est. Cost ($20/kg)** | **Est. Cost ($50/kg)** | **Purpose/Notes** |
+| **Part** | **Filament Usage** | **Printing Time (Normal speed)** | **Est. Cost ($18/kg)** | **Purpose/Notes** |
 |---|---|:---:|---:|---|---|
-|  |  |  |  |  | |
+| Case Bottom | 85.84g | 2h 28m |  |  |
 
 
 **Final Estimated Total: $77.7**
