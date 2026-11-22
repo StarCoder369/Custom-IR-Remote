@@ -1,4 +1,4 @@
- <div align="center">
+<div align="center">
 
 # Custom IR Remote
 
@@ -12,7 +12,8 @@ An IR Remote containing 7 buttons, with a custom PCB.
 
 ---
 
-## Table of Contents
+<details>
+<summary><h2>Table of Contents</h2></summary>
 
 - [Overview](#overview)
   - [Description](#description)
@@ -30,9 +31,12 @@ An IR Remote containing 7 buttons, with a custom PCB.
 - [3D Printing Details](#details-for-3d-printing)
 - [Additional Information](#additional-info)
 
+</details>
+
 ---
 
-## Overview
+<details>
+<summary><h2>Overview</h2></summary>
 
 This is an overview of the whole project.
 
@@ -143,9 +147,12 @@ There's still going to be an app, but it's not a big part, and it's mostly to im
 
 Now even though I could just use a generic IR Remote that I can buy online, this project was also a learning challenge for me, and I personally think it's much better and more fun to make my own.
 
+</details>
+
 ---
 
-## Images/Screenshots
+<details>
+<summary><h2>Images/Screenshots</h2></summary>
 
 This is where I'm going to be adding all the images and screenshots.
 
@@ -161,7 +168,6 @@ This is where I'm going to be adding all the images and screenshots.
 ![Microcontroller Portion](https://github.com/user-attachments/assets/83b8b4a8-8f16-4974-ac36-db7c4563ab2c)
 
 #### Main LED Portion
-
 ![IR LED Portion](https://github.com/user-attachments/assets/e9089d64-6ebe-4e98-b873-b8c661b8aef6)
 
 #### Power Switch Portion
@@ -250,6 +256,8 @@ This is where I'm going to be adding all the images and screenshots.
 #### Everything Together
 <img width="555" height="619" alt="Screenshot 2026-11-14 at 9 10 28 PM" src="https://github.com/user-attachments/assets/342c4031-3533-4b52-88a0-68a317a7c2ac" />
 
+
+</details>
 
 </details>
 
@@ -428,7 +436,7 @@ Look at the screenshots below to understand how to correctly orient all the part
 
 <details>
 <summary><h2 id="additional-info">Additional Information</h2></summary>
- 
+
 Powered by two AAA batteries. The battery compartment has to be ordered, while there is a 3d printed battery holder that holds the battery compartment in place. There is also a PCB holder, which holds the PCB in place. Both the holders snap into the main bottom part of the case. 
 
 The battery holder has a lid, which is divided into 2 parts. The two parts snap together, and the whole lid also snaps to the battery holder.
@@ -489,5 +497,7 @@ This is the microcontroller used in the IR Remote.
 </details>
 </details>
 
-## Credits
+<details>
+<summary><h2>Credits</h2></summary>
 The case was modeled completely in Onshape. 
+</details>
