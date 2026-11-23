@@ -300,7 +300,7 @@ This is where I'm going to be adding all the images and screenshots.
 
 | **Category** | **Estimated Cost** |
 |---|---:|
-| PCB component, battery holder, and batteries | $13 |
+| PCB components, battery holder, and batteries | $13 |
 | PCB | $6.22 |
 | **Main Remote Components Total** | **$19.22** |
 
@@ -316,7 +316,7 @@ This is where I'm going to be adding all the images and screenshots.
 | Heat-Set Inserts | Heat Set Threaded Inserts (M3 x 5.7) | 4 | $2.00 ($0.50 x 4) | [Pev Dispensary](https://pevdispensary.com/products/heat-set-threaded-inserts?_pos=1&_psq=heat-set&_psid=b41701175&_ss=e) | Installed into the case using the soldering iron so screws can be used on the case |
 | Screws | M3.0 x 8mm Black Screws KM3X8 | 5 | $0.45 ($0.09 x 5) | [MODDIY](https://www.moddiy.com/products/1291/M3.0-x-8mm-Black-Screws-KM3X8.html) | Screwed into heat-set inserts to hold case lid down |
 
-* Other tools total: $58.48 *
+**Other tools total: $58.48**
 
 ### 3D Printing Costs
 
@@ -324,15 +324,25 @@ This is where I'm going to be adding all the images and screenshots.
 > Different printers may have slightly different filament costs or times.
 >
 > Does not account for printing on the same plate
+>
+> Support is enabled for all parts in this estimate to ensure maximum stability
+> See [Details for 3D Printing](#details-for-3d-printing) to understand what parts require supports
+
 
 | **Part** | **Filament Usage** | **Printing Time (Normal speed)** | **Est. Cost ($18/kg)** | **Purpose/Notes** |
-|---|---|:---:|---:|---|---|
-| Case Bottom | 85.84g | 2h 28m |  |  |
+|---|:---:|:---:|:---:|---|
+| Case Bottom | 85.84g | 2h 28m | $1.55 | The walls of the model are thick enough to not require additional infill (Support enabled, not required) |
+| Case Top | 35.71g | 1h 14m | $0.64 | 30% infill with four wall loops to increase strength and durability |
+| PCB Holder | 19.29g | 0h 36m | $0.35 | Support is enabled, but is not required |
+| Battery Holder Bottom | 19.33g | 0h 43m | $0.35 | Support enabled, but is not required |
+| Battery Holder Top 1 | 15.67g | 0h 44m | $0.28 | 30% infill, four wall loops, support enabled (and required) |
+| Battery Holder Top 2 | 11.84g | 0h 33m | $0.21 | 30% infill, four wall loops, support enabled (and required) |
 
+**3D Printing Costs Total: $3.38**
 
-**Final Estimated Total: $77.7**
+**Final Estimated Total: $81.08**
 
-*Prices are estimates and may change. Most shipping prices, taxes, and the 3D-printed case are not included(3D Printing cost will be added once case has been finalized). Discounts have also not been considered.*
+*Prices are estimates and may change. Most shipping prices and taxes have not been included. Discounts have also not been considered.*
 
 
 </details>
