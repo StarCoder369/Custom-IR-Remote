@@ -512,6 +512,8 @@ This is the microcontroller used in the IR Remote.
 </details>
 </details>
 
+---
+
 <details>
 <summary><h2>Credits</h2></summary>
 The case was modeled completely in Onshape. 
