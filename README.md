@@ -276,8 +276,6 @@ This is where I'm going to be adding all the images and screenshots.
 
 ### Main PCB Components
 
-**PCB Cost has not been finalized. It is actually much more expensive: $12.18 without stencil, $27.08 with stencil**
-
 | **Ref.** | **Component** | **Exact Part** | **Qty** | **Type** | **Est. Cost** | **KiCad Footprint** | **Supplier/Purchase Link** | **Purpose/Notes** |
 |:--------:|---------------|----------------|:-------:|:--------:|---------------:|---------------------|----------------------------|-------------------|
 | U1 | Microcontroller | Microchip ATtiny1616-SN | 1 | SMD | $1.16 | `Package_SO:SOIC-20W_7.5x12.8mm_P1.27mm` | [DigiKey](https://www.digikey.com/en/products/detail/microchip-technology/ATTINY1616-SN/10231345) | Controls the remote and sends IR commands. |
@@ -304,8 +302,8 @@ This is where I'm going to be adding all the images and screenshots.
 | **Category** | **Estimated Cost** |
 |---|---:|
 | PCB components, battery holder, and batteries | $13 |
-| PCB | $6.22 |
-| **Main Remote Components Total** | **$19.22** |
+| PCB | $7.80 |
+| **Main Remote Components Total** | **$20.08** |
 
 ### Other Tools/Parts
 
@@ -343,9 +341,9 @@ This is where I'm going to be adding all the images and screenshots.
 
 **3D Printing Costs Total: $3.38**
 
-**Final Estimated Total: $81.08**
+**Final Estimated Total: $82.66**
 
-*Prices are estimates and may change. Most shipping prices and taxes have not been included. Discounts have also not been considered.*
+*Prices are estimates and may change. Most shipping prices and taxes have not been included. Most discounts have also not been considered.*
 
 
 </details>
@@ -363,6 +361,15 @@ I've selected the Pinecil since it's quite reliable.
 
 ### Soldering Iron Tips
 These tips were selected because they are the ones meant for the Pinecil. Use the correct tips for other soldering irons.
+
+### PCB
+The PCB is being ordered from PCBway due to it being cheaper.
+
+### Screws
+The screws are being bought individually to get the cheapest options. The M3 screws will fit inside the heat-set inserts to hold it together. 5 screws are being bought just to be safe.
+
+### Heat-Set Inserts
+The heat-set inserts are also being bought individually to keep it cheap. Only four heat-set inserts will be necessary for the case, so only the price of four is in the BOM.
 
 </details>
 
