@@ -273,7 +273,7 @@ This is where I'm going to be adding all the images and screenshots.
 
 ### Main PCB Components
 
-**PCB Cost has not been finalized. It is actually much more expensive, probably ~$28.47**
+**PCB Cost has not been finalized. It is actually much more expensive: $12.18 without stencil, $27.08 with stencil**
 
 | **Ref.** | **Component** | **Exact Part** | **Qty** | **Type** | **Est. Cost** | **KiCad Footprint** | **Supplier/Purchase Link** | **Purpose/Notes** |
 |:--------:|---------------|----------------|:-------:|:--------:|---------------:|---------------------|----------------------------|-------------------|
