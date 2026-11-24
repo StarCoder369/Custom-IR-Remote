@@ -269,11 +269,6 @@ This is where I'm going to be adding all the images and screenshots.
 <details>
 <summary><h2 id="bom">BOM</h2></summary>
 
-> [!WARNING]
-> These are estimated prices, the final prices may be different.
->
-> Reference number are the ones in the schematic.
-
 ### Main PCB Components
 
 | **Ref.** | **Component** | **Exact Part** | **Qty** | **Type** | **Est. Cost** | **KiCad Footprint** | **Supplier/Purchase Link** | **Purpose/Notes** |
@@ -293,11 +288,12 @@ This is where I'm going to be adding all the images and screenshots.
 | J2 | UPDI Programming Header | Samtec TSW-103-07-G-S | 1 | Through-Hole | $0.27 | `Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical` | [DigiKey](https://www.digikey.com/en/products/detail/samtec-inc/TSW-103-07-G-S/1101324) | Connects a programmer for uploading firmware. |
 | B1–B2 | AAA Batteries | Energizer Max Alkaline Batteries AAA 2 Each | 2 | External | $5.09 (2-pack) | N/A | [Amazon](https://www.amazon.com/Energizer-MAX-Alkaline-Batteries-Pack/dp/B00003IEM9/ref=sr_1_1?crid=1R5Q5H0U1N4MA&dib=eyJ2IjoiMSJ9.-J3RQvAfb9xdYkFISSO4y3AduNOJeUzNr0xkALFf9kgSEWOsKeL0i5_2h3EDz4lC9VpplQWgW__Im-mKuZHLgtRHvcjNEWr7CIr39bI7LtNjWBfKKD49iDBD_4RwlWHYhm9zbXP-ncLFMJg3TWQCN6IRO4bmVqequpENO8zsH6gED8lUeYwA5d3AjxRUVbFwqU5AU5Xcx8JNh8m1kagbji5c1Mswtthyb1CQW5HsBSASrcKXuoCpf2Xo_llRbgNO1LqfPV-yASuGBaBdtdVtaxvwQO4kQIbjTFAnPweYY3g.ylXVBRf7wR-I_RF41wxVxmvUJAZUJY90ZbtLZI4-cn0&dib_tag=se&keywords=Energizer%2BE92BP-2%2Baaa%2Bbatteries&qid=1795063780&refinements=p_n_g-1002806120111%3A23555310011&rnid=23555274011&sprefix=%2Caps%2C164&sr=8-1&th=1) | Provides power to the remote. |
 
-> [!NOTE]
 > J1 is a connector, which the battery holder will connect to. There is no physical component, so the battery holder has been put in its place.
 
 ### Estimated Remote Components Cost
 #### Does not include tools/additional parts like screws, magnets, etc.
+
+> The PCB does not need a stencil, since most of the components above are through-hole.
 
 | **Category** | **Estimated Cost** |
 |---|---:|
