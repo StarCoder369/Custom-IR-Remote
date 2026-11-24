@@ -398,9 +398,12 @@ Parts can be printed in PLA.
 
 ### Recommended Printing Settings
 
+> These are recommended printing settings. You can change them to what you think will work best.
+
 (This is for Bambu Studio. Most slicers should be similar)
 
 **Infill %:** 15%
+
 **Infill Type:** Gyroid
 
 ### Orientation
