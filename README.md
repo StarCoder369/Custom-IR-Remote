@@ -15,6 +15,8 @@ An IR Remote containing 7 buttons, with a custom PCB.
 <details>
 <summary><h2>Table of Contents</h2></summary>
 
+> The links below will not work unless that dropdown has been opened
+
 - [Overview](#overview)
   - [Description](#description)
   - [Why I'm Making This](#why-im-making-this)
