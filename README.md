@@ -32,6 +32,7 @@ An IR Remote containing 7 buttons, with a custom PCB.
 - [Schematic Details](#schematic-details)
 - [3D Printing Details](#details-for-3d-printing)
 - [Additional Information](#additional-info)
+- [Credits](#credits)
 
 </details>
 
@@ -515,6 +516,6 @@ This is the microcontroller used in the IR Remote.
 ---
 
 <details>
-<summary><h2>Credits</h2></summary>
+<summary><h2 id="credits">Credits</h2></summary>
 The case was modeled completely in Onshape. 
 </details>
