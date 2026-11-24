@@ -273,7 +273,7 @@ This is where I'm going to be adding all the images and screenshots.
 
 ### Main PCB Components
 
-**PCB Cost has not been finalized. Currently using JLCPCB estimates, since it seems like it is cheaper than PCBWAY**
+**PCB Cost has not been finalized. It is actually much more expensive, probably ~$28.47**
 
 | **Ref.** | **Component** | **Exact Part** | **Qty** | **Type** | **Est. Cost** | **KiCad Footprint** | **Supplier/Purchase Link** | **Purpose/Notes** |
 |:--------:|---------------|----------------|:-------:|:--------:|---------------:|---------------------|----------------------------|-------------------|
