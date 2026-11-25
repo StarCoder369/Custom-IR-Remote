@@ -554,4 +554,8 @@ This is the microcontroller used in the IR Remote.
 <details>
 <summary><h2 id="credits">Credits</h2></summary>
 The case was modeled completely in Onshape. 
+
+The schematic and PCB were designed in Kicad.
+
+Links to all components can be found in the [BOM](#bom)
 </details>
