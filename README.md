@@ -170,28 +170,42 @@ This is where I'm going to be adding all the images and screenshots.
 
 ![Microcontroller Portion](https://github.com/user-attachments/assets/83b8b4a8-8f16-4974-ac36-db7c4563ab2c)
 
+---
+
 #### Main LED Portion
 ![IR LED Portion](https://github.com/user-attachments/assets/e9089d64-6ebe-4e98-b873-b8c661b8aef6)
+
+---
 
 #### Power Switch Portion
 
 ![Power Switch Portion](https://github.com/user-attachments/assets/a9683ecd-7099-482b-ae4b-087781415219)
 
+---
+
 #### Buttons Portion
 
 ![Buttons Portion](https://github.com/user-attachments/assets/91e2e072-a190-40a5-8990-25fbfa01a6da)
+
+---
 
 #### Battery Connector Portion
 
 ![Battery Connector Portion](https://github.com/user-attachments/assets/40ec2d44-01db-4ba4-ab01-8d3e2de6c082)
 
+---
+
 #### Programming Connector Portion
 
 ![Programming Connector Portion](https://github.com/user-attachments/assets/e92d2575-e264-4748-9eb5-a200af25f2b1)
 
+---
+
 #### Complete Schematic
 
 ![Complete Schematic Screenshot](https://github.com/user-attachments/assets/b093bac4-4b5d-41d1-b8a2-2d518f6f8c62)
+
+---
 
 </details>
 
@@ -203,8 +217,12 @@ This is where I'm going to be adding all the images and screenshots.
 #### PCB (Showing Filled Zones)
 <img width="914" height="640" alt="Screenshot 2026-11-10 at 9 33 42 PM" src="https://github.com/user-attachments/assets/37df905b-5dd9-4ed2-842f-b31577b8bbd8" />
 
+---
+
 #### PCB (Not Showing Filled Zones)
 <img width="914" height="640" alt="Screenshot 2026-11-10 at 9 34 16 PM" src="https://github.com/user-attachments/assets/fca2ff1c-7865-4406-9393-fd768775e069" />
+
+---
 
 </details>
 
@@ -216,54 +234,68 @@ This is where I'm going to be adding all the images and screenshots.
 #### PCB Holder Portion
 <img width="841" height="600" alt="Screenshot 2026-11-14 at 9 02 55 PM" src="https://github.com/user-attachments/assets/fbde84e7-5a7f-4a89-afde-d9c641a2498b" />
 
+---
 
 #### Battery Case Bottom Portion (Without Battery Holder Component)
 <img width="663" height="512" alt="Screenshot 2026-11-14 at 9 03 45 PM" src="https://github.com/user-attachments/assets/5f71ab6a-5b3c-478e-a024-b4da512777cf" />
 
+---
 
 #### Battery Case Bottom Portion (With Battery Holder Component)
 <img width="630" height="558" alt="Screenshot 2026-11-14 at 9 04 41 PM" src="https://github.com/user-attachments/assets/90529d5c-0690-4505-8f51-d96701425a17" />
 
+---
 
 #### Battery Case Top-1
 <img width="618" height="474" alt="Screenshot 2026-11-14 at 9 05 22 PM" src="https://github.com/user-attachments/assets/473c8dda-fcd4-4a32-aeb8-586fb7dfa291" />
 
+---
 
 #### Battery Case Top-2
 <img width="618" height="474" alt="Screenshot 2026-11-14 at 9 05 52 PM" src="https://github.com/user-attachments/assets/eaf77669-8681-4177-9414-f89d5923abd6" />
 
+---
 
 #### Battery Case Top-Both
 <img width="618" height="474" alt="Screenshot 2026-11-14 at 9 06 26 PM" src="https://github.com/user-attachments/assets/453a0e1f-68f6-4eed-8798-31a5605d522e" />
 
+---
+
 #### Complete Battery Case
 <img width="618" height="474" alt="Screenshot 2026-11-14 at 9 06 58 PM" src="https://github.com/user-attachments/assets/4f9d2021-e205-40be-a7bd-6a1e72935008" />
 
+---
 
 #### Main Case Bottom (Without Other Parts)
 <img width="563" height="594" alt="Screenshot 2026-11-24 at 4 50 47 PM" src="https://github.com/user-attachments/assets/df53439f-a90a-450d-9c6a-a02828e81896" />
 <img width="563" height="594" alt="Screenshot 2026-11-24 at 4 53 36 PM" src="https://github.com/user-attachments/assets/e891c3d1-7985-4b91-93a2-63668d94f0db" />
 
+---
 
 #### Main Case Bottom (With Other Parts)
 <img width="563" height="594" alt="Screenshot 2026-11-24 at 4 53 19 PM" src="https://github.com/user-attachments/assets/28d987f2-c6af-4669-a631-4e8e81db6b80" />
 
+---
 
 #### Main Case Top
 <img width="563" height="594" alt="Screenshot 2026-11-24 at 4 52 00 PM" src="https://github.com/user-attachments/assets/e3da4903-6c68-492a-992f-3106bca72b2e" />
 
+---
 
 #### Main Case Both
 <img width="563" height="594" alt="Screenshot 2026-11-24 at 4 52 07 PM" src="https://github.com/user-attachments/assets/c7c3893d-bb5e-45d0-a0e0-d5e46aaa894c" />
 
+---
 
 #### Everything Together
 <img width="563" height="594" alt="Screenshot 2026-11-24 at 4 51 01 PM" src="https://github.com/user-attachments/assets/f48fddd9-f677-4498-bfa8-47f7e9be104b" />
 
+---
 
 #### Exploded View
 <img width="646" height="627" alt="Screenshot 2026-11-23 at 8 34 45 PM" src="https://github.com/user-attachments/assets/62373e19-20d7-4239-a323-b7422dc17aa3" />
 
+---
 
 </details>
 
