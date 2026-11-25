@@ -228,6 +228,12 @@ This is where I'm going to be adding all the images and screenshots.
 
 ---
 
+#### PCB with 3D Models
+<img width="648" height="466" alt="Screenshot 2026-11-25 at 3 20 11 PM" src="https://github.com/user-attachments/assets/5a480461-48b7-4661-b413-248c3c09e870" />
+<img width="826" height="466" alt="Screenshot 2026-11-25 at 3 20 39 PM" src="https://github.com/user-attachments/assets/154ca3fb-3034-4a7f-a96b-4b183be15b88" />
+<img width="826" height="466" alt="Screenshot 2026-11-25 at 3 20 57 PM" src="https://github.com/user-attachments/assets/bd4cee41-80ee-45fc-a9a9-79b7fcd34038" />
+
+
 </details>
 
 ### CAD (Case)
