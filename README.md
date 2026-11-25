@@ -241,23 +241,28 @@ This is where I'm going to be adding all the images and screenshots.
 
 
 #### Main Case Bottom (Without Other Parts)
-<img width="700" height="486" alt="Screenshot 2026-11-14 at 9 07 48 PM" src="https://github.com/user-attachments/assets/af1ee9eb-f38b-4236-b714-87a6db670df2" />
+<img width="563" height="594" alt="Screenshot 2026-11-24 at 4 50 47 PM" src="https://github.com/user-attachments/assets/df53439f-a90a-450d-9c6a-a02828e81896" />
+<img width="563" height="594" alt="Screenshot 2026-11-24 at 4 53 36 PM" src="https://github.com/user-attachments/assets/e891c3d1-7985-4b91-93a2-63668d94f0db" />
 
 
 #### Main Case Bottom (With Other Parts)
-<img width="700" height="486" alt="Screenshot 2026-11-14 at 9 08 22 PM" src="https://github.com/user-attachments/assets/793c7448-ac96-4544-b601-f523b5e2e62a" />
+<img width="563" height="594" alt="Screenshot 2026-11-24 at 4 53 19 PM" src="https://github.com/user-attachments/assets/28d987f2-c6af-4669-a631-4e8e81db6b80" />
 
 
 #### Main Case Top
-<img width="976" height="619" alt="Screenshot 2026-11-14 at 9 09 04 PM" src="https://github.com/user-attachments/assets/ed6d799d-7065-41ed-97ed-7adc61cd4977" />
+<img width="563" height="594" alt="Screenshot 2026-11-24 at 4 52 00 PM" src="https://github.com/user-attachments/assets/e3da4903-6c68-492a-992f-3106bca72b2e" />
 
 
 #### Main Case Both
-<img width="886" height="576" alt="Screenshot 2026-11-14 at 9 09 38 PM" src="https://github.com/user-attachments/assets/73813ff9-35db-4f5d-8d31-b01efe2e8516" />
+<img width="563" height="594" alt="Screenshot 2026-11-24 at 4 52 07 PM" src="https://github.com/user-attachments/assets/c7c3893d-bb5e-45d0-a0e0-d5e46aaa894c" />
 
 
 #### Everything Together
-<img width="555" height="619" alt="Screenshot 2026-11-14 at 9 10 28 PM" src="https://github.com/user-attachments/assets/342c4031-3533-4b52-88a0-68a317a7c2ac" />
+<img width="563" height="594" alt="Screenshot 2026-11-24 at 4 51 01 PM" src="https://github.com/user-attachments/assets/f48fddd9-f677-4498-bfa8-47f7e9be104b" />
+
+
+#### Exploded View
+<img width="646" height="627" alt="Screenshot 2026-11-23 at 8 34 45 PM" src="https://github.com/user-attachments/assets/62373e19-20d7-4239-a323-b7422dc17aa3" />
 
 
 </details>
