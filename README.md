@@ -380,9 +380,9 @@ This is where I'm going to be adding all the images and screenshots.
 | Case Bottom | 85.84g | 2h 28m | $1.55 | The walls of the model are thick enough to not require additional infill (Support enabled, not required) |
 | Case Top | 35.71g | 1h 14m | $0.64 | 30% infill with four wall loops to increase strength and durability |
 | PCB Holder | 19.29g | 0h 36m | $0.35 | Support is enabled, but is not required |
-| Battery Holder Bottom | 19.33g | 0h 43m | $0.35 | Support enabled, but is not required |
-| Battery Holder Top 1 | 15.67g | 0h 44m | $0.28 | 30% infill, four wall loops, support enabled (and required) |
-| Battery Holder Top 2 | 11.84g | 0h 33m | $0.21 | 30% infill, four wall loops, support enabled (and required) |
+| Battery Case Bottom | 19.33g | 0h 43m | $0.35 | Support enabled, but is not required |
+| Battery Case Top 1 | 15.67g | 0h 44m | $0.28 | 30% infill, four wall loops, support enabled (and required) |
+| Battery Case Top 2 | 11.84g | 0h 33m | $0.21 | 30% infill, four wall loops, support enabled (and required) |
 
 **3D Printing Costs Total: $3.38**
 
@@ -450,10 +450,17 @@ How the buttons connect to the microcontroller
 <details>
 <summary><h2 id="details-for-3d-printing">Details for 3D Printing</h2></summary>
 
-The only 2 parts that need supports are the two parts of the lid of the battery holder.
+The only 2 parts that need supports are the two parts of the lid of the battery case.
 You can still enable supports for other parts if you wish, but they should not be required since most modern printers can handle bridging of those distances.
 
 Parts can be printed in PLA.
+
+Under the CAD folder in the repository, there should be two folders. 
+You can download either one. 
+
+The single-file version has all the parts in one .step file, including the PCB and the Battery Holder component. In your slicer, you can seperate them into objects and print the files you need to print (everything except for the PCB and the battery holder). 
+
+The multiple-file version has the parts in different .step files. The composite parts, like the PCB and the Battery Holder component are in a separate folder which is not necessary for 3d printing. 
 
 ### Recommended Printing Settings
 
@@ -511,9 +518,9 @@ Look at the screenshots below to understand how to correctly orient all the part
 <details>
 <summary><h2 id="additional-info">Additional Information</h2></summary>
 
-Powered by two AAA batteries. The battery compartment has to be ordered, while there is a 3d printed battery holder that holds the battery compartment in place. There is also a PCB holder, which holds the PCB in place. Both the holders snap into the main bottom part of the case. 
+Powered by two AAA batteries. The battery holder has to be ordered, while there is a 3d printed battery case that holds the battery compartment in place. There is also a PCB holder, which holds the PCB in place. Both the battery case and the PCB holder snap into the main bottom part of the case. 
 
-The battery holder has a lid, which is divided into 2 parts. The two parts snap together, and the whole lid also snaps to the battery holder.
+The battery case has a lid, which is divided into 2 parts. The two parts snap together, and the whole lid also snaps to the battery case.
 
 The top part of the case uses screws to stay on the bottom part of the case. Heat-set inserts are installed to allow screws to be used.
 
