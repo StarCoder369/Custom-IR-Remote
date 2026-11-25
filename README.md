@@ -455,6 +455,7 @@ You can still enable supports for other parts if you wish, but they should not b
 
 Parts can be printed in PLA.
 
+### Downloading Files
 Under the CAD folder in the repository, there should be two folders. 
 You can download either one. 
 
@@ -471,6 +472,8 @@ The multiple-file version has the parts in different .step files. The composite 
 **Infill %:** 15%
 
 **Infill Type:** Gyroid
+
+Most of the other settings are at their default. Just make sure to enable support for the parts that need it.
 
 ### Orientation
 
