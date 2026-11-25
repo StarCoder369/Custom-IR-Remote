@@ -413,13 +413,19 @@ Refer to the [Schematic Screenshots](#schematic) to see the images of the schema
 
 How the buttons connect to the microcontroller
 
-**SW1 (Power)** - BTN_POWER --> PA4(Pin 2)
-**SW2 (Speed Down)** - BTN_DOWN --> PA5(Pin 3)
-**SW3 (Speed Up)** - BTN_UP --> PA6(Pin 4)
-**SW4 (Preset 1)** - BTN_PRESET1 --> PA7(Pin 5)
-**SW5 (Preset 2)** - BTN_PRESET2 --> PB5(Pin 6)
-**SW6 (Preset 3)** - BTN_PRESET3 --> PB4(Pin 7)
-**SW7 (Preset 4)** - BTN_PRESET4 --> PB1(Pin 10)
+**SW1 (Power)** - *BTN_POWER* ➜ PA4(Pin 2)
+
+**SW2 (Speed Down)** - *BTN_DOWN* ➜ PA5(Pin 3)
+
+**SW3 (Speed Up)** - *BTN_UP* ➜ PA6(Pin 4)
+
+**SW4 (Preset 1)** - *BTN_PRESET1* ➜ PA7(Pin 5)
+
+**SW5 (Preset 2)** - *BTN_PRESET2* ➜ PB5(Pin 6)
+
+**SW6 (Preset 3)** - *BTN_PRESET3* ➜ PB4(Pin 7)
+
+**SW7 (Preset 4)** - *BTN_PRESET4* ➜ PB1(Pin 10)
 
 </details>
 
