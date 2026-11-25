@@ -69,7 +69,7 @@ All buttons connect to the PCB using soldered wires.
 <details open>
 <summary><strong>Custom PCB</strong></summary>
 
-- To decrease the size of the remote
+- To make the remote more compact
 - To make everything much neater, and lessen the need for physical wires.
 - This is what all the components connect to.
 
@@ -126,7 +126,7 @@ All buttons connect to the PCB using soldered wires.
 <details open>
 <summary><strong>Heat-Set Inserts</strong></summary>
 
-- Will be inserted to the top corners of the case
+- Will be melted into the top corners of the case
 - Allows screws to be used to hold the lid down
 
 </details>
@@ -136,7 +136,7 @@ All buttons connect to the PCB using soldered wires.
 
 - 7 buttons
 - Each has a different function
-- All of them will be soldered to the PCB
+- All of them will be connected to the PCB
 
 </details>
 
@@ -145,8 +145,6 @@ All buttons connect to the PCB using soldered wires.
 I'm making this IR Remote because I wanted a way to wirelessly control my custom desk fan(which is still in the designing phase).
 
 Instead of just using an app, I wanted to make my own way to control it. I wanted to make something that could work on it's own, not needing a phone or another device.
-
-There's still going to be an app, but it's not a big part, and it's mostly to improve the ease of use and add some customizability.
 
 Now even though I could just use a generic IR Remote that I can buy online, this project was also a learning challenge for me, and I personally think it's much better and more fun to make my own.
 
@@ -158,8 +156,6 @@ Now even though I could just use a generic IR Remote that I can buy online, this
 <summary><h2>Images/Screenshots</h2></summary>
 
 This is where I'm going to be adding all the images and screenshots.
-
-**CAD SCREENSHOTS HAVE TO BE UPDATED**
 
 ### Schematic
 
