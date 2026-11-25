@@ -47,7 +47,15 @@ This is an overview of the whole project.
 
 This is an IR remote designed specifically for a custom desk fan(currently in making).
 
-#### Main Components
+### How it will work
+ - The power button will be used to make the fan start or stop spinning.
+ - The speed up/down buttons will be used to increase/decrease the speed of the fan.
+ - The presets will be used to easily set the fan speed to a certain value. Ex: 25%, 50%, 75%, 100%
+ - The power button does **not** completely power off the fan. It only stops the spinning. There will be a switch on the fan itself to completely switch of everything.
+ - The IR remote has a switch at the top which can be used to switch it off.
+ - Powered by 2 AAA batteries, which should last a very long time.
+
+### Main Components
 
 <details open>
 <summary><strong>7 Buttons</strong></summary>
