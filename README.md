@@ -146,7 +146,7 @@ I'm making this IR Remote because I wanted a way to wirelessly control my custom
 
 Instead of just using an app, I wanted to make my own way to control it. I wanted to make something that could work on it's own, not needing a phone or another device.
 
-Now even though I could just use a generic IR Remote that I can buy online, this project was also a learning challenge for me, and I personally think it's much better and more fun to make my own.
+Even though I could just use a generic IR Remote that I can buy online, this project was also a learning challenge for me, and I personally think it's much better and more fun to make my own.
 
 </details>
 
