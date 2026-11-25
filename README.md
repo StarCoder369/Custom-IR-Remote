@@ -47,6 +47,8 @@ This is an overview of the whole project.
 
 This is an IR remote designed specifically for a custom desk fan(currently in making).
 
+The CAD files can be found here: [Onshape Link](https://cad.onshape.com/documents/b58003edcc261ab7ae8f67d9/w/804b285eff3510f2b31cd16c/e/22d5694021ff0b2514c67bd8?renderMode=0&uiState=6b076ec4ece0ab9f6f34b7ba)
+
 ### How it will work
  - The power button will be used to make the fan start or stop spinning.
  - The speed up/down buttons will be used to increase/decrease the speed of the fan.
