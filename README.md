@@ -1,5 +1,3 @@
-[![Download CAD](https://img.shields.io/badge/Download-CAD-brightgreen?style=for-the-badge)](https://raw.githubusercontent.com/StarCoder369/Custom-IR-Remote/main/CAD/CAD_SingleFile/CAD_SingleFile.step
-)
 <div align="center">
 
 # Custom IR Remote
@@ -458,8 +456,10 @@ You can still enable supports for other parts if you wish, but they should not b
 Parts can be printed in PLA.
 
 ### Downloading Files
-Under the CAD folder in the repository, there should be two folders. 
-You can download either one. 
+
+[![Download CAD](https://img.shields.io/badge/Download-Single_File_CAD-brightgreen?style=for-the-badge)](https://github.com/StarCoder369/Custom-IR-Remote/raw/refs/heads/main/CAD/CAD_SingleFile.zip)
+
+[![Download CAD](https://img.shields.io/badge/Download-Single_File_CAD-brightgreen?style=for-the-badge)](https://github.com/StarCoder369/Custom-IR-Remote/raw/refs/heads/main/CAD/CAD_MultipleFiles.zip)
 
 The single-file version has all the parts in one .step file, including the PCB and the Battery Holder component. In your slicer, you can seperate them into objects and print the files you need to print (everything except for the PCB and the battery holder). 
 
