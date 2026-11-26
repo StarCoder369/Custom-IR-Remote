@@ -30,6 +30,7 @@ An IR Remote containing 7 buttons, with a custom PCB.
   - [Other tools/parts](#other-toolsparts)
 - [About the Parts Selected](#about-parts-selected)
 - [Schematic Details](#schematic-details)
+- [Downloading Instructions](#download-instructions)
 - [3D Printing Details](#details-for-3d-printing)
 - [Additional Information](#additional-info)
 - [Credits](#credits)
@@ -474,6 +475,8 @@ The firmware contains the base code.
 [![Download PCB](https://img.shields.io/badge/Download-PCB_Files-brightgreen?style=for-the-badge)](https://github.com/StarCoder369/Custom-IR-Remote/raw/refs/heads/main/PCB/gerbers.zip)
 
 Contains all the files of the PCB, including gerbers, drill holes, silkscreen, etc.
+
+</details>
 
 ---
 
