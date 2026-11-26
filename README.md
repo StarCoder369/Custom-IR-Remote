@@ -12,7 +12,7 @@ An IR Remote containing 7 buttons, with a custom PCB.
 
 ---
 
-<details>
+<details open>
 <summary><h2>Table of Contents</h2></summary>
 
 > The links below will not work unless that dropdown has been opened
@@ -38,7 +38,7 @@ An IR Remote containing 7 buttons, with a custom PCB.
 
 ---
 
-<details>
+<details open>
 <summary><h2>Overview</h2></summary>
 
 This is an overview of the whole project.
@@ -162,7 +162,7 @@ Even though I could just use a generic IR Remote that I can buy online, this pro
 
 ---
 
-<details>
+<details open>
 <summary><h2>Images/Screenshots</h2></summary>
 
 This is where I'm going to be adding all the images and screenshots.
@@ -315,7 +315,7 @@ This is where I'm going to be adding all the images and screenshots.
 
 ---
 
-<details>
+<details open>
 <summary><h2 id="bom">BOM</h2></summary>
 
 ### Main PCB Components
@@ -395,7 +395,7 @@ This is where I'm going to be adding all the images and screenshots.
 
 ---
 
-<details><summary><h2 id="about-parts-selected"> About Parts Selected </h2></summary>
+<details open><summary><h2 id="about-parts-selected"> About Parts Selected </h2></summary>
 
 ### Batteries
 I'm using an Amazon link, since even though the batteries may seem cheaper in other places, after factoring in shipping, it ends up being much more.
@@ -420,7 +420,7 @@ The heat-set inserts are also being bought individually to keep it cheap. Only f
 
 ---
 
-<details>
+<details open>
 <summary><h2 id="schematic-details"> Schematic Details </h2></summary>
 
 Refer to the [Schematic Screenshots](#schematic) to see the images of the schematic.
@@ -447,7 +447,7 @@ How the buttons connect to the microcontroller
 
 ---
 
-<details>
+<details open>
 <summary><h2 id="details-for-3d-printing">Details for 3D Printing</h2></summary>
 
 The only 2 parts that need supports are the two parts of the lid of the battery case.
@@ -520,7 +520,7 @@ Look at the screenshots below to understand how to correctly orient all the part
 
 ---
 
-<details>
+<details open>
 <summary><h2 id="additional-info">Additional Information</h2></summary>
 
 Powered by two AAA batteries. The battery holder has to be ordered, while there is a 3d printed battery case that holds the battery compartment in place. There is also a PCB holder, which holds the PCB in place. Both the battery case and the PCB holder snap into the main bottom part of the case. 
@@ -585,7 +585,7 @@ This is the microcontroller used in the IR Remote.
 
 ---
 
-<details>
+<details open>
 <summary><h2 id="credits">Credits</h2></summary>
 The case was modeled completely in Onshape. 
 
