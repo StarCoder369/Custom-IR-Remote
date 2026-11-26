@@ -1,3 +1,5 @@
+[![Download CAD](https://img.shields.io/badge/Download-CAD-brightgreen?style=for-the-badge)](https://raw.githubusercontent.com/StarCoder369/Custom-IR-Remote/main/CAD/CAD_SingleFile/CAD_SingleFile.step
+)
 <div align="center">
 
 # Custom IR Remote
