@@ -348,7 +348,7 @@ This is where I'm going to be adding all the images and screenshots.
 |---|---:|
 | PCB components, battery holder, and batteries | $13 |
 | PCB | $7.80 |
-| **Main Remote Components Total** | **$20.08** |
+| **Main Remote Components Total** | **$20.80** |
 
 ### Other Tools/Parts
 
