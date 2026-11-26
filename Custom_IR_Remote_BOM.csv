@@ -1,0 +1,33 @@
+Category,Reference,Component,Exact Part,Quantity,Type,Estimated Cost,KiCad Footprint,Purchase Link,Purpose/Notes
+Main PCB,U1,Microcontroller,Microchip ATtiny1616-SN,1,SMD,$1.16,Package_SO:SOIC-20W_7.5x12.8mm_P1.27mm,https://www.digikey.com/en/products/detail/microchip-technology/ATTINY1616-SN/10231345,Controls the remote and sends IR commands.
+Main PCB,D1,IR LED,Vishay TSAL6200,1,Through-Hole,$0.50,LED_THT:LED_D5.0mm,https://www.digikey.com/en/products/detail/vishay-semiconductor-opto-division/TSAL6200/1681339,Sends infrared signals to the fan.
+Main PCB,Q1,IR LED driver transistor,onsemi BC547BTA,1,Through-Hole,$0.28,Package_TO_SOT_THT:TO-92_Inline,https://www.digikey.com/en/products/detail/onsemi/BC547BTA/965854,Controls the IR LED when sending commands.
+Main PCB,SW1–SW7,Tactile Buttons,Aratas B3F-1000,7,Through-Hole,$2.45 ($0.35 × 7),Button_Switch_THT:SW_PUSH_6mm,https://www.digikey.com/en/products/detail/omron-electronics-inc-emc-div/B3F-1000/33150,Used for power speed control and the four presets.
+Main PCB,SW8,Power Switch,C&K OS102011MS2QS1,1,Through-Hole,$0.85,Button_Switch_THT:SW_Slide_SPDT_Straight_CK_OS102011MS2Q,https://www.digikey.com/en/products/detail/c-k/OS102011MS2QS1/1981413,Turns the remote on and off.
+Main PCB,C1,Decoupling Capacitor,Vishay K104K15X7RF5TH5,1,Through-Hole,$0.29,Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm,https://www.digikey.com/en/products/detail/vishay-beyschlag-draloric-bc-components/K104K15X7RF5TH5/286723,Helps keep the microcontroller's power supply stable.
+Main PCB,C2,Power-Supply Capacitor,Panasonic EEA-GA1C100H,1,Through-Hole,$0.29,Capacitor_THT:CP_Radial_D4.0mm_P2.50mm,https://www.digikey.com/en/products/detail/panasonic-industry/EEA-GA1C100H/2513289,Helps smooth out the power supply.
+Main PCB,R1,IR LED current-limiting resistor,YAGEO CFR-25JB-52-47R,1,Through-Hole,$0.10,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,https://www.digikey.com/en/products/detail/yageo/CFR-25JB-52-47R/2219,Limits the current going to the IR LED.
+Main PCB,R2,Transistor base resistor,YAGEO CFR-25JB-52-330R,1,Through-Hole,$0.11,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,https://www.digikey.com/en/products/detail/yageo/CFR-25JB-52-330R/1636,Helps control the transistor.
+Main PCB,R3,UPDI series resistor,YAGEO CFR-25JB-52-1K,1,Through-Hole,$0.10,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,https://www.digikey.com/en/products/detail/yageo/CFR-25JB-52-1K/96,Used in the microcontroller programming connection.
+Main PCB,R4,Transistor base pull-down resistor,YAGEO CFR-25JB-52-100K,1,Through-Hole,$0.11,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,https://www.digikey.com/en/products/detail/yageo/CFR-25JB-52-100K/245,Keeps the IR LED driver turned off when not in use.
+Main PCB,J1,Battery Holder,Keystone Electronics 2469,1,External / Wired,$1.40,Connector_Wire:SolderWire-0.25sqmm_1x02_P4.2mm_D0.65mm_OD1.7mm,https://www.digikey.com/en/products/detail/keystone-electronics/2469/303818,Holds the two AAA batteries that power the remote.
+Main PCB,J2,UPDI Programming Header,Samtec TSW-103-07-G-S,1,Through-Hole,$0.27,Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical,https://www.digikey.com/en/products/detail/samtec-inc/TSW-103-07-G-S/1101324,Connects a programmer for uploading firmware.
+Power,B1–B2,AAA Batteries,Energizer Max Alkaline Batteries AAA 2 Each,2,External,$5.09 (2-pack),N/A,https://www.amazon.com/Energizer-MAX-Alkaline-Batteries-Pack/dp/B00003IEM9,Provides power to the remote.
+Tools,NA,UPDI Programmer,Adafruit UPDI Friend (Product 5879),1,External,$6.95,N/A,https://www.adafruit.com/product/5879,External USB-C programmer for uploading firmware to the ATtiny1616. Reusable and not installed on the remote PCB.
+Tools,NA,Soldering Iron,PINECIL - Smart Mini Portable Soldering Iron (Version 2),1,External,$25.99,N/A,https://pine64.com/product/pinecil-smart-mini-portable-soldering-iron/,Soldering iron to solder components onto the PCB
+Tools,NA,Soldering Iron Tips,PINECIL Threaded Insert Tips Set and Adapter,1,External,$14.99,N/A,https://pine64.com/product/pinecil-threaded-insert-tips-set-and-adapter/,Needed to install heat-set inserts into the case using the soldering iron
+Hardware,NA,Neodymium Magnets,N52 Neodymium Magnet Disc 10mm OD x 3mm H,4,External,$3.92 ($0.98 x 4),N/A,https://suprememagnets.com/products/n52-neodymium-magnet-disc-10mm-od-x-3mm-h,Needed to magnetically attach the remote onto the desk fan
+Hardware,NA,Glue,Loctite Super Glue Gel Control Clear 0.14 fl oz Bottle 1 Pack - Superglue for Plastic Wood Metal Crafts & Repair Cyanoacrylate Adhesive Instant Glue Quick Dry,1,External,$4.18,N/A,https://www.amazon.com/dp/B0006HUJCQ,Needed to glue magnets onto case
+Hardware,NA,Heat-Set Inserts,Heat Set Threaded Inserts (M3 x 5.7),4,External,$2.00 ($0.50 x 4),N/A,https://pevdispensary.com/products/heat-set-threaded-inserts,Installed into the case using the soldering iron so screws can be used on the case
+Hardware,NA,Screws,M3.0 x 8mm Black Screws KM3X8,5,External,$0.45 ($0.09 x 5),N/A,https://www.moddiy.com/products/1291/M3.0-x-8mm-Black-Screws-KM3X8.html,Screwed into heat-set inserts to hold case lid down
+3D Printing,NA,Case Bottom,3D Printed Part,1,3D Printed,$1.55,N/A,N/A,85.84g filament; 2h 28m printing time; thick walls do not require additional infill (Support enabled not required)
+3D Printing,NA,Case Top,3D Printed Part,1,3D Printed,$0.64,N/A,N/A,35.71g filament; 1h 14m printing time; 30% infill with four wall loops to increase strength and durability
+3D Printing,NA,PCB Holder,3D Printed Part,1,3D Printed,$0.35,N/A,N/A,19.29g filament; 0h 36m printing time; Support is enabled but is not required
+3D Printing,NA,Battery Case Bottom,3D Printed Part,1,3D Printed,$0.35,N/A,N/A,19.33g filament; 0h 43m printing time; Support enabled but is not required
+3D Printing,NA,Battery Case Top 1,3D Printed Part,1,3D Printed,$0.28,N/A,N/A,15.67g filament; 0h 44m printing time; 30% infill four wall loops support enabled and required
+3D Printing,NA,Battery Case Top 2,3D Printed Part,1,3D Printed,$0.21,N/A,N/A,11.84g filament; 0h 33m printing time; 30% infill four wall loops support enabled and required
+TOTAL,,,,,,$82.66,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
