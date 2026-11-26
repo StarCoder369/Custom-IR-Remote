@@ -448,22 +448,42 @@ How the buttons connect to the microcontroller
 ---
 
 <details open>
+<summary><h2 id="download-instructions">Downloading Instructions</h2></summary>
+
+You can either use the quick links or navigate to the file in the repository.
+
+### CAD
+[![Download CAD](https://img.shields.io/badge/Download-Single_File_CAD-brightgreen?style=for-the-badge)](https://github.com/StarCoder369/Custom-IR-Remote/raw/refs/heads/main/CAD/CAD_SingleFile.zip)
+
+[![Download CAD](https://img.shields.io/badge/Download-Multi_File_CAD-brightgreen?style=for-the-badge)](https://github.com/StarCoder369/Custom-IR-Remote/raw/refs/heads/main/CAD/CAD_MultipleFiles.zip)
+
+You can find both files in the _CAD_ folder.
+
+The single-file version has all the parts in one .step file, including the PCB and the Battery Holder component. In your slicer, you can seperate them into objects and print the files you need to print (everything except for the PCB and the battery holder component). 
+
+The multiple-file version has the parts in different .step files. The composite parts, like the PCB and the Battery Holder component are in a separate folder. They are not necessary for 3d printing. 
+
+### Firmware
+[![Download Firmware](https://img.shields.io/badge/Download-Firmware-brightgreen?style=for-the-badge)](https://github.com/StarCoder369/Custom-IR-Remote/raw/refs/heads/main/Firmware/Firmware.zip)
+
+You can find the firmware in the _Firmware_ folder.
+
+The firmware contains the base code.
+
+### PCB
+[![Download PCB](https://img.shields.io/badge/Download-PCB_Files-brightgreen?style=for-the-badge)](https://github.com/StarCoder369/Custom-IR-Remote/raw/refs/heads/main/PCB/gerbers.zip)
+
+Contains all the files of the PCB, including gerbers, drill holes, silkscreen, etc.
+
+---
+
+<details open>
 <summary><h2 id="details-for-3d-printing">Details for 3D Printing</h2></summary>
 
 The only 2 parts that need supports are the two parts of the lid of the battery case.
 You can still enable supports for other parts if you wish, but they should not be required since most modern printers can handle bridging of those distances.
 
 Parts can be printed in PLA.
-
-### Downloading Files
-
-[![Download CAD](https://img.shields.io/badge/Download-Single_File_CAD-brightgreen?style=for-the-badge)](https://github.com/StarCoder369/Custom-IR-Remote/raw/refs/heads/main/CAD/CAD_SingleFile.zip)
-
-[![Download CAD](https://img.shields.io/badge/Download-Single_File_CAD-brightgreen?style=for-the-badge)](https://github.com/StarCoder369/Custom-IR-Remote/raw/refs/heads/main/CAD/CAD_MultipleFiles.zip)
-
-The single-file version has all the parts in one .step file, including the PCB and the Battery Holder component. In your slicer, you can seperate them into objects and print the files you need to print (everything except for the PCB and the battery holder). 
-
-The multiple-file version has the parts in different .step files. The composite parts, like the PCB and the Battery Holder component are in a separate folder which is not necessary for 3d printing. 
 
 ### Recommended Printing Settings
 
